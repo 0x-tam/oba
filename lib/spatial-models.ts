@@ -56,6 +56,14 @@ export function createTwig():StudyModel{
  const platform=new THREE.Group();platform.position.copy(mid);let geometry:THREE.BufferGeometry;if(i%3===0)geometry=new THREE.CylinderGeometry(.27,.27,.025,40);else if(i%3===1)geometry=new THREE.BoxGeometry(.5,.025,.5);else{const s=new THREE.Shape();s.moveTo(-.3,-.24);s.lineTo(.3,-.24);s.lineTo(0,.3);s.closePath();geometry=new THREE.ExtrudeGeometry(s,{depth:.025,bevelEnabled:false});geometry.rotateX(-Math.PI/2)}const top=new THREE.Mesh(geometry,white);top.position.y=.045;top.castShadow=true;platform.add(top);box(platform,xdir?[.19,.065,.04]:[.04,.065,.19],[0,0,0],wood);surfaces.add(platform)}
  return{root,parts:[part('feet','Concrete feet','Cylindrical ballast stabilises the freestanding display system.',feet),part('stems','Timber stems','Square uprights carry branches at different heights.',stems),part('rails','Paired branches','Two rails clamp either side of each stem, with gray-painted ends.',rails),part('bolts','Bolted joints','Visible fasteners join the paired rails to each timber stem.',fasteners),part('platforms','Removable platforms','Circle, square and triangle tops have underside blocks that locate between the rails.',surfaces)],setExplode(n){stems.position.y=n*.2;rails.position.y=n*.45;fasteners.position.x=n*.15;surfaces.position.y=n*.75},setRoof(v){surfaces.visible=v},setDetail(n){surfaces.children.forEach(c=>c.position.y+=(n/100-(c.userData.lastLift||0))*.4);surfaces.children.forEach(c=>c.userData.lastLift=n/100)}};
 }
+// Keep the dense lattice responsive by drawing repeated members as instances.
+function instanceRepeatedMembers(group:THREE.Group){
+ const batches=new Map<string,THREE.Mesh[]>();
+ for(const child of [...group.children]){if(!(child instanceof THREE.Mesh)||!(child.geometry instanceof THREE.BoxGeometry)||Array.isArray(child.material))continue;
+ const p=child.geometry.parameters;const key=[p.width,p.height,p.depth].map(n=>n.toFixed(5)).join(':')+child.material.uuid;const batch=batches.get(key)||[];batch.push(child);batches.set(key,batch)}
+ for(const meshes of batches.values()){if(meshes.length<4)continue;const first=meshes[0],instanced=new THREE.InstancedMesh(first.geometry,first.material,meshes.length);instanced.castShadow=true;instanced.receiveShadow=true;
+ meshes.forEach((m,i)=>{m.updateMatrix();instanced.setMatrixAt(i,m.matrix);group.remove(m);if(m.geometry!==first.geometry)m.geometry.dispose()});instanced.instanceMatrix.needsUpdate=true;instanced.computeBoundingBox();instanced.computeBoundingSphere();group.add(instanced)}
+}
 export function createStudio():StudyModel{
  const root=new THREE.Group(),grid=new THREE.Group(),canopy=new THREE.Group(),infill=new THREE.Group(),base=new THREE.Group();root.add(grid,canopy,infill,base);const steel=material('#dfe3d9'),plinth=material('#c9ccbe'),canvas=material('#efe8d7'),wood=material('#b19c7f');
  const x0=-3.5,m=.2,z0=-1.6;const openings=[[0,0,5,5],[6,0,3,6],[10,1,5,5],[2,7,3,3],[11,8,5,4],[16,2,3,5]];
@@ -69,6 +77,7 @@ export function createStudio():StudyModel{
  for(let j=0;j<6;j++)box(infill,[.5,.018,.32],[x0+3.5,.4+j*.09,z0+.17],steel);
  for(let i=0;i<14;i++){const x=.75+i*.2;let prev=new THREE.Vector3(x,.18,-1.35);const path=[new THREE.Vector3(x,1.85,-1.35)];for(let j=1;j<=20;j++){const t=Math.PI-Math.PI/2*j/20;path.push(new THREE.Vector3(x,1.85+.8*Math.sin(t),-.55+.8*Math.cos(t)))}path.push(new THREE.Vector3(x,2.65,1.6));for(const p of path){beam(canopy,prev,p,.024,.024,steel);prev=p}}
  for(let z=-.55;z<=1.65;z+=.2)box(canopy,[2.7,.02,.02],[2.05,2.66,z],steel);box(base,[7.3,.16,3.6],[0,.05,0],plinth);box(base,[.1,.55,3.4],[3.6,.36,0],plinth);box(base,[3,.55,.1],[2.05,.36,1.75],plinth);
+ instanceRepeatedMembers(grid);instanceRepeatedMembers(canopy);
  return{root,parts:[part('grid','Carved lattice','The 20×20 base grid opens into larger bays for canvases and easels. This pattern is interpretive.',grid),part('canopy','Curved canopy ribs','Closely spaced metal ribs turn vertical screening into an open overhead structure.',canopy),part('storage','Shelves & drying rack','Deep shelves and repeated trays turn the lattice into working storage.',infill),part('base','Balcony edge','A low parapet contains the open workspace.',base)],setExplode(n){grid.position.z=-n*.75;canopy.position.y=n*1.2;infill.position.z=n*.8},setRoof(v){canopy.visible=v}};
 }
 export function createParc():StudyModel{
