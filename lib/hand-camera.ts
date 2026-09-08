@@ -2,9 +2,9 @@ import TrackingWorker from '../workers/hand-tracking.worker?worker';
 import { HandGestures, type GestureMode } from './hand-gestures';
 export type GestureFrame=ReturnType<HandGestures['update']>;
 export const gestureHints:Record<GestureMode,string>={
- paused:'Release both pinches to pick up the model again',
- searching:'Show your hands · Keep fingertips in view',ready:'Ready · Pinch to pick up the model',
- arming:'Hold your pinch…',rotate:'Rotate · Move your pinched hand',zoom:'Zoom · Spread or bring your pinched hands together',
+ paused:'Use one hand at a time · Open the other hand',
+ searching:'Show your hands · Keep fingertips in view',ready:'Ready · Pinch to rotate, make a fist to zoom',
+ arming:'Hold your gesture…',rotate:'Rotate · Move your pinched hand',zoom:'Zoom · Pull your fist toward the camera to zoom in; push away to zoom out',
 };
 /** One frame in flight. Slow devices drop frames instead of accumulating delayed movement. */
 export function trackCamera(video:HTMLVideoElement, callbacks:{ready:()=>void;frame:(frame:GestureFrame)=>void;error:()=>void}){

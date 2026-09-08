@@ -8,7 +8,20 @@ test('deliberate movement rotates after engagement',()=>{const r=engaged().updat
 test('hysteresis prevents pinch chatter; release freezes',()=>{const g=engaged();assert.equal(g.update([hand(.4,.4,.48)],120).mode,'rotate');const r=g.update([hand(.4,.4,.7)],160);assert.equal(r.mode,'ready');assert.equal(r.x,0);assert.equal(g.update([hand(.5)],200).mode,'arming');});
 test('lost hand reacquires without jumping',()=>{const g=engaged();g.update([],120);const r=g.update([hand(.7)],160);assert.equal(r.x,0);assert.equal(r.mode,'arming');});
 test('long gaps and out of order frames never replay movement',()=>{const g=engaged();assert.equal(g.update([hand(.5)],600).x,0);assert.equal(g.update([hand(.7)],590).x,0);});
-test('two pinches zoom, ordering does not change the gesture',()=>{const g=new HandGestures();g.update([hand(.3),hand(.7)],0);g.update([hand(.3),hand(.7)],80);const r=g.update([hand(.72),hand(.28)],120);assert.equal(r.mode,'zoom');assert.ok(r.zoom<1);assert.equal(r.x,0);});
 test('a second open hand cannot accidentally zoom',()=>{const g=engaged();const r=g.update([hand(.42),hand(.75,.4,.9)],120);assert.equal(r.mode,'rotate');assert.equal(r.zoom,1);});
-test('losing one hand while zooming requires release before rotation',()=>{const g=new HandGestures();g.update([hand(.3),hand(.7)],0);g.update([hand(.3),hand(.7)],80);for(const t of [120,160,200])assert.equal(g.update([hand(.32)],t).x,0);g.update([hand(.32,.4,.9)],240);assert.equal(g.update([hand(.32)],280).mode,'arming');});
 test('invalid landmarks are ignored',()=>{const g=engaged();assert.equal(g.update([[{x:NaN,y:0}]],120).mode,'searching');});
+
+function fist(scale=1,x=.5,y=.5){
+ const h=Array.from({length:21},()=>({x,y}));h[0]={x,y:y+.14*scale};
+ for(const [mcp,offset] of [[5,-.07],[9,-.02],[13,.035],[17,.08]]){
+  h[mcp]={x:x+offset*scale,y:y-.01*scale};h[mcp+1]={x:x+offset*scale,y:y-.045*scale};
+  h[mcp+2]={x:x+offset*scale,y:y+.005*scale};h[mcp+3]={x:x+offset*scale,y:y+.055*scale};
+ }h[4]={x:x-.055*scale,y:y+.05*scale};return h;
+}
+function engagedFist(){const g=new HandGestures();g.update([fist()],0);g.update([fist()],60);g.update([fist()],120);return g;}
+test('closed fist pulling toward camera zooms in',()=>{const r=engagedFist().update([fist(1.08)],160);assert.equal(r.mode,'zoom');assert.ok(r.zoom<1);assert.equal(r.x,0);});
+test('closed fist pushing away zooms out',()=>{const r=engagedFist().update([fist(.92)],160);assert.equal(r.mode,'zoom');assert.ok(r.zoom>1);});
+test('lateral fist movement does not zoom or rotate',()=>{const r=engagedFist().update([fist(1,.54,.54)],160);assert.equal(r.zoom,1);assert.equal(r.x,0);assert.equal(r.y,0);});
+test('open hand stops fist zoom and new gesture has no jump',()=>{const g=engagedFist();const r=g.update([hand(.5,.5,.9)],160);assert.equal(r.zoom,1);assert.equal(g.update([fist(1.2)],200).zoom,1);});
+test('two active hands pause rather than switch to two-pinch zoom',()=>{const r=engaged().update([hand(.3),hand(.7)],120);assert.equal(r.mode,'paused');assert.equal(r.zoom,1);});
+test('sudden fist scale jump is rejected',()=>{const r=engagedFist().update([fist(1.6)],160);assert.equal(r.zoom,1);assert.equal(r.mode,'arming');});

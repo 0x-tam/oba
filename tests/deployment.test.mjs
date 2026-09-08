@@ -25,3 +25,12 @@ test('mobile CSS is compiled and includes safe-area and touch controls',async()=
  assert.ok(css.includes('--header-height:124px'));
  assert.ok(!css.includes('@theme'));
 });
+test('only reviewed reconstructions are advertised as interactive models',async()=>{
+ assert.deepEqual(projects.filter(p=>p.model).map(p=>p.model).sort(),['benina','thing']);
+ const html=await (await get('/models')).text();
+ assert.equal((html.match(/class="model-launch"/g)||[]).length,2);
+ for(const id of ['landship','artists-studio-balcony','lebanese-concept-house','residence-du-parc']){
+  const page=await (await get('/work/'+id)).text();assert.ok(!page.includes('class="model-launch"'));
+  assert.ok(page.includes('Original portfolio sheets'));
+ }
+});

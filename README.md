@@ -1,6 +1,6 @@
 # Omar Bacho — Architecture portfolio
 
-Architecture, interiors, objects and research, with searchable collections and six interactive Three.js studies.
+Architecture, interiors, objects and research, with searchable collections and two selected interactive Three.js studies.
 
 ## Local development
 
@@ -38,4 +38,4 @@ For a standalone Node server: `npm run build:node`, then `node .output/server/in
 
 ## Mobile and 3D
 
-The portfolio adapts to narrow screens, tablets and landscape orientation. Model and image dialogs use the available device viewport with safe-area padding. Touch controls use one finger to orbit and two fingers to zoom/pan. Camera gestures are optional and require HTTPS, camera permission and a compatible browser. Detection runs in a worker; video stays on the device. The 3D studies are interpretive reconstructions, not surveyed or fabrication models.
+The portfolio adapts to narrow screens, tablets and landscape orientation. Model and image dialogs use the available device viewport with safe-area padding. Touch controls use one finger to orbit and two fingers to zoom/pan. Pinch with one hand to rotate; close it into a fist and move toward/away from the camera to zoom. Camera gestures are optional and require HTTPS, camera permission and a compatible browser. Detection runs in a worker; video stays on the device. The 3D studies are interpretive reconstructions, not surveyed or fabrication models.

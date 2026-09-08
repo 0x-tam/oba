@@ -28,3 +28,11 @@ Six interactive reconstructions: Benina, Thing Flatpack, Landship, Artist’s St
 Each model offers selectable components, an explanatory part list, focus controls, perspective/top/front views, layer visibility, separated assembly and local optional hand gestures. Landship provides the source-supported 0–15 degree glazing adjustment. Twig includes paired bolted rails, concrete ballast and platform locating blocks. Studio uses a carved lattice and curved canopy ribs. RDP includes real arch openings and a sliding timber screen.
 
 Validation: TypeScript compilation, production build, finite geometry/bounds checks for all six studies, selectable-part integrity, all image references, preserved project count, and HTTP/title/navigation checks for the homepage, all collection pages, 3D, profile and four new 3D-linked detail routes. No camera hardware testing or browser interaction testing performed.
+
+## Source fidelity revision
+
+The interactive Landship, Studio Balcony, Twig kit and Résidence du Parc reconstructions were removed after user review. Original project images, axonometrics and PDF sheets remain available. Only the Benina roof-module study and the rebuilt Thing Flatpack remain interactive.
+
+Both complete PDFs were audited for /3D and /RichMedia annotations, U3D/PRC streams and embedded attachments: none were present (see pdf-3d-audit.json). The spatial drawings are raster/vector illustrations, not reusable 3D meshes. Flatpack geometry follows PDF pages 38–39: individual mixed-timber strips, mitered diagonal rails, folding triangular panels, thin triangular shelf and corner rod. Hidden hardware and exact dimensions remain approximate. A reference comparison is available inside the viewer. The background grid and floor were removed.
+
+Zoom now uses one closed fist and apparent palm scale; opening the hand pauses it. The palm width/height ratio rejects abrupt wrist turns. This uses a webcam depth cue, not measured depth from a 3D sensor. Synthetic checks cover both zoom directions, sideways motion, release, scale jumps, tracking loss and gesture transitions. Live camera performance still requires device testing.
