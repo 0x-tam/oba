@@ -44,7 +44,7 @@ scene.add(new THREE.HemisphereLight('#ffffff','#d2cbc0',2.5));const sun=new THRE
   if(!navigator.mediaDevices?.getUserMedia||!window.Worker||!window.createImageBitmap){setStatus('Camera gestures are unavailable here. Drag and zoom controls are ready to use.');return}
   const id=++requestId.current;setCamera('loading');setStatus('Allow camera access to begin.');
   try{
-   const media=await navigator.mediaDevices.getUserMedia({video:{facingMode:'user',width:{ideal:640},height:{ideal:480},frameRate:{ideal:30,max:30}},audio:false});
+   const mobile=window.matchMedia('(pointer: coarse)').matches;const media=await navigator.mediaDevices.getUserMedia({video:{facingMode:'user',width:{ideal:mobile?480:640},height:{ideal:mobile?360:480},frameRate:{ideal:30,max:30}},audio:false});
    if(!alive.current||id!==requestId.current){media.getTracks().forEach(t=>t.stop());return}
    stream.current=media;const v=video.current;if(!v)throw new Error('No preview');v.srcObject=media;await v.play();
    if(!alive.current||id!==requestId.current)return;
@@ -60,7 +60,7 @@ scene.add(new THREE.HemisphereLight('#ffffff','#d2cbc0',2.5));const sun=new THRE
      if(!result.points.some(p=>p.pinch||p.fist))releaseAfterMouse=false;
      setStatus(manual?'Mouse control':releaseAfterMouse?'Open your hand to resume hand control':gestureHints[result.mode]);
      const m=motion.current;
-     if(!manual&&!releaseAfterMouse&&(result.mode==='rotate'||result.mode==='zoom')){m.x+=result.x;m.y+=result.y;m.zoom+=Math.log(result.zoom);m.time=now;}
+     if(!manual&&!releaseAfterMouse&&(result.mode==='rotate'||result.mode==='zoom')){m.x+=result.x;m.y+=result.y;m.zoom=0;m.time=now;if(result.mode==='zoom'&&result.zoom!==1)api.current?.zoom(result.zoom);}
      else{m.x=0;m.y=0;m.zoom=0;}
      const canvas=overlay.current,ctx=canvas?.getContext('2d');
      if(canvas&&ctx){ctx.clearRect(0,0,canvas.width,canvas.height);const edges=[[0,1,2,3,4],[0,5,6,7,8],[5,9,10,11,12],[9,13,14,15,16],[13,17,18,19,20],[0,17]];result.hands.forEach(hand=>{if(hand.length<21)return;ctx.strokeStyle=result.mode==='zoom'?'#8b6126':'#344330';ctx.fillStyle=ctx.strokeStyle;ctx.lineWidth=3;ctx.lineCap='round';edges.forEach(chain=>{ctx.beginPath();chain.forEach((n,i)=>{const p=hand[n],x=(1-p.x)*canvas.width,y=p.y*canvas.height;if(i===0)ctx.moveTo(x,y);else ctx.lineTo(x,y)});ctx.stroke()});hand.forEach(p=>{ctx.beginPath();ctx.arc((1-p.x)*canvas.width,p.y*canvas.height,3.5,0,Math.PI*2);ctx.fill()})});}

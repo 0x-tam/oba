@@ -25,3 +25,16 @@ test('lateral fist movement does not zoom or rotate',()=>{const r=engagedFist().
 test('open hand stops fist zoom and new gesture has no jump',()=>{const g=engagedFist();const r=g.update([hand(.5,.5,.9)],160);assert.equal(r.zoom,1);assert.equal(g.update([fist(1.2)],200).zoom,1);});
 test('two active hands pause rather than switch to two-pinch zoom',()=>{const r=engaged().update([hand(.3),hand(.7)],120);assert.equal(r.mode,'paused');assert.equal(r.zoom,1);});
 test('sudden fist scale jump is rejected',()=>{const r=engagedFist().update([fist(1.6)],160);assert.equal(r.zoom,1);assert.equal(r.mode,'arming');});
+test('fist zoom engages within 60ms and gives a strong first response',()=>{
+ const g=new HandGestures();g.update([fist()],0);g.update([fist()],33);
+ const r=g.update([fist(1.08)],66);assert.equal(r.mode,'zoom');assert.ok(r.zoom<.83,'8% depth movement should change distance by at least 17%');
+});
+test('fist tremor stays still at mobile and desktop frame rates',()=>{
+ for(const dt of [16,33,66]){const g=engagedFist();for(let i=1;i<30;i++){const r=g.update([fist(i%2?1.005:.995)],120+i*dt);assert.equal(r.zoom,1);}}
+});
+test('fist zoom reverses on the next frame without a smoothing tail',()=>{
+ const g=engagedFist();assert.ok(g.update([fist(1.08)],153).zoom<1);assert.ok(g.update([fist(1)],186).zoom>1);
+});
+test('fast mobile fist movement stays bounded at low frame rates',()=>{
+ const g=engagedFist();const r=g.update([fist(.82)],200);assert.equal(r.mode,'zoom');assert.ok(r.zoom>1.2);assert.ok(r.zoom<=Math.exp(.35));
+});

@@ -10,7 +10,7 @@ export const gestureHints:Record<GestureMode,string>={
 export function trackCamera(video:HTMLVideoElement, callbacks:{ready:()=>void;frame:(frame:GestureFrame)=>void;error:()=>void}){
  const worker=new TrackingWorker();
  const gestures=new HandGestures();
- let stopped=false,busy=false,ready=false,raf=0,lastVideo=-1,lastSent=0;
+ let stopped=false,busy=false,ready=false,raf=0,lastVideo=-1;
  let timer:ReturnType<typeof setTimeout>;
  const fail=()=>{if(stopped)return;stop();callbacks.error();};
  function stop(){stopped=true;clearTimeout(timer);cancelAnimationFrame(raf);worker.terminate();gestures.reset();}
@@ -26,17 +26,19 @@ export function trackCamera(video:HTMLVideoElement, callbacks:{ready:()=>void;fr
    else callbacks.frame({...gestures.update(event.data.hands,event.data.time),hands:event.data.hands});
   }
  };
+ // The tracking video is offscreen; use RAF so compositor visibility cannot stall tracking.
+ function schedule(){if(!stopped)raf=requestAnimationFrame(loop);}
  async function loop(now:number){
   if(stopped)return;
-  raf=requestAnimationFrame(loop);
-  if(!ready||busy||video.readyState<2||video.currentTime===lastVideo||now-lastSent<32)return;
-  busy=true;lastVideo=video.currentTime;lastSent=now;deadline(6000);
+  schedule();
+  if(!ready||busy||video.readyState<2||video.currentTime===lastVideo)return;
+  busy=true;lastVideo=video.currentTime;deadline(6000);
   try{
    const bitmap=await createImageBitmap(video);
    if(stopped){bitmap.close();return;}
    worker.postMessage({type:'frame',bitmap,time:now},[bitmap]);
   }catch{fail();}
  }
- deadline(45000);worker.postMessage({type:'init',origin:location.origin});raf=requestAnimationFrame(loop);
+ deadline(45000);worker.postMessage({type:'init',origin:location.origin});schedule();
  return stop;
 }

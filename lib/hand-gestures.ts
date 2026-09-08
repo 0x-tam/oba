@@ -30,7 +30,7 @@ export class HandGestures {
   if(active.length!==1){this.signature='';this.baseline=null;this.scale=0;result.mode=active.length>1?'paused':this.tracks.length?'ready':'searching';return result;}
   const hand=active[0],mode=hand.fist?'zoom':'rotate',signature=hand.id+':'+mode;
   if(signature!==this.signature){this.signature=signature;this.since=now;this.baseline={...hand.point};this.scale=hand.scale;this.shape=hand.shape;result.mode='arming';return result;}
-  if(now-this.since<(hand.fist?110:70)){this.baseline={...hand.point};this.scale=hand.scale;this.shape=hand.shape;result.mode='arming';return result;}
+  if(now-this.since<(hand.fist?60:70)){this.baseline={...hand.point};this.scale=hand.scale;this.shape=hand.shape;result.mode='arming';return result;}
   result.mode=mode;
   if(mode==='rotate'&&this.baseline){
    const dx=hand.point.x-this.baseline.x,dy=hand.point.y-this.baseline.y;
@@ -42,7 +42,7 @@ export class HandGestures {
    // Palm landmarks remain stable while fingers curl. Reject wrist turns and scale jumps.
    const delta=Math.log(this.scale/hand.scale),turn=Math.abs(Math.log(hand.shape/this.shape));
    if(turn>.16||Math.abs(delta)>.25){this.scale=hand.scale;this.shape=hand.shape;this.since=now;result.mode='arming';return result;}
-   if(Math.abs(delta)>.018){const filtered=delta*(1-Math.exp(-Math.min(dt,80)/35));result.zoom=Math.exp(clamp(filtered*1.65,.065));this.scale*=Math.exp(-filtered);}
+   if(Math.abs(delta)>.018){const filtered=delta*(1-Math.exp(-Math.min(dt,80)/12));const stepLimit=Math.min(.35,Math.max(.12,.22*dt/33));result.zoom=Math.exp(clamp(filtered*3.6,stepLimit));this.scale*=Math.exp(-filtered);}
    this.shape=hand.shape;
   }
   return result;
