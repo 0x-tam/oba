@@ -1,0 +1,3 @@
+import Link from 'next/link';
+export function SiteHeader(){return <header className="site-header"><Link className="wordmark" href="/">omar bacho<span>architecture & design</span></Link><nav aria-label="Main navigation"><Link href="/#work">Work <sup>01</sup></Link><Link href="/#models">In three dimensions <sup>02</sup></Link><Link href="/#about">Profile <sup>03</sup></Link></nav></header>}
+export function SiteFooter(){return <footer className="site-footer"><a href="mailto:ob2286@gmail.com">ob2286@gmail.com <span>↗</span></a><div><span>Omar Bacho</span><a href="#top">Back to top ↑</a></div></footer>}

@@ -1,0 +1,2969 @@
+[
+  {
+    "id": "villa-kali",
+    "title": "Villa Kali",
+    "category": "Architecture",
+    "year": "2016",
+    "location": "Beirut, Lebanon",
+    "program": "Residential",
+    "office": "Blankpage Architects",
+    "credits": "K. Nader, O. Bacho, J. Chidiac, V. Kurumilian",
+    "summary": "Two horizontal volumes reinterpret the courtyard house on a seaside site, opening rooms to the Mediterranean around a cascading stair-and-water spine.",
+    "hero": "/images/villa-kali.webp",
+    "images": [
+      {
+        "src": "/images/villa-kali.webp",
+        "width": 1600,
+        "height": 1000,
+        "alt": "Villa Kali — project view"
+      },
+      {
+        "src": "/images/amara-07-0.webp",
+        "width": 1500,
+        "height": 846,
+        "source": "amara",
+        "page": 7,
+        "alt": "Villa Kali — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/amara-08-0.webp",
+        "width": 1024,
+        "height": 578,
+        "source": "amara",
+        "page": 8,
+        "alt": "Villa Kali — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/amara-06-2.webp",
+        "width": 983,
+        "height": 489,
+        "source": "amara",
+        "page": 6,
+        "alt": "Villa Kali — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/amara-06-3.webp",
+        "width": 984,
+        "height": 485,
+        "source": "amara",
+        "page": 6,
+        "alt": "Villa Kali — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/amara-06-0.webp",
+        "width": 826,
+        "height": 488,
+        "source": "amara",
+        "page": 6,
+        "alt": "Villa Kali — photograph, drawing or design study 6"
+      },
+      {
+        "src": "/images/amara-06-1.webp",
+        "width": 363,
+        "height": 488,
+        "source": "amara",
+        "page": 6,
+        "alt": "Villa Kali — photograph, drawing or design study 7"
+      }
+    ],
+    "sources": [
+      {
+        "source": "amara",
+        "pages": [
+          6,
+          7,
+          8
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "",
+    "sourceIndex": 13
+  },
+  {
+    "id": "artists-residence",
+    "title": "Artist’s Residence",
+    "category": "Interiors",
+    "year": "2017",
+    "location": "Beirut, Lebanon",
+    "program": "Residential",
+    "office": "Twig Collaborative",
+    "credits": "Omar Bacho, Rami Saab, S. Varma",
+    "summary": "Living, gallery and studio spaces shift between privacy and continuity using sliding translucent screens, maplewood frames and movable exhibition panels.",
+    "hero": "/images/amara-10-0.webp",
+    "images": [
+      {
+        "src": "/images/amara-10-0.webp",
+        "width": 1921,
+        "height": 1083,
+        "source": "amara",
+        "page": 10,
+        "alt": "Artist’s Residence — project view"
+      },
+      {
+        "src": "/images/omar-17-2.webp",
+        "width": 2197,
+        "height": 1078,
+        "source": "omar",
+        "page": 17,
+        "alt": "Artist’s Residence — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-16-0.webp",
+        "width": 1000,
+        "height": 493,
+        "source": "omar",
+        "page": 16,
+        "alt": "Artist’s Residence — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/omar-17-1.webp",
+        "width": 1000,
+        "height": 491,
+        "source": "omar",
+        "page": 17,
+        "alt": "Artist’s Residence — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/amara-09-2.webp",
+        "width": 986,
+        "height": 491,
+        "source": "amara",
+        "page": 9,
+        "alt": "Artist’s Residence — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/1deF3WEV28ana__I0rRXORE5-i7c0D-7W.webp",
+        "width": 1024,
+        "height": 430,
+        "caption": "Afaf-Zurayk-Twig-Collaborative plan.jpg",
+        "alt": "Artist’s Residence — photograph, drawing or design study 6"
+      },
+      {
+        "src": "/images/omar-16-1.webp",
+        "width": 903,
+        "height": 430,
+        "source": "omar",
+        "page": 16,
+        "alt": "Artist’s Residence — photograph, drawing or design study 7"
+      },
+      {
+        "src": "/images/amara-09-0.webp",
+        "width": 446,
+        "height": 486,
+        "source": "amara",
+        "page": 9,
+        "alt": "Artist’s Residence — photograph, drawing or design study 8"
+      },
+      {
+        "src": "/images/amara-09-4.webp",
+        "width": 605,
+        "height": 302,
+        "source": "amara",
+        "page": 9,
+        "alt": "Artist’s Residence — photograph, drawing or design study 9"
+      },
+      {
+        "src": "/images/amara-09-3.webp",
+        "width": 363,
+        "height": 486,
+        "source": "amara",
+        "page": 9,
+        "alt": "Artist’s Residence — photograph, drawing or design study 10"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          16,
+          17
+        ]
+      },
+      {
+        "source": "amara",
+        "pages": [
+          9,
+          10
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": "https://www.twigcollaborative.com/work/an-artists-residence",
+    "role": "Design & construction",
+    "sourceIndex": 5
+  },
+  {
+    "id": "benina-international-airport",
+    "title": "Benina International Airport",
+    "category": "Architecture",
+    "year": "2019",
+    "location": "Benina, Libya",
+    "program": "Airport terminal",
+    "office": "by fiveten",
+    "credits": "Omar Bacho, Dana Muhsen",
+    "summary": "An additive steel-and-precast-concrete structural system separates the roof shell from terminal functions, allowing expansion in two directions and diffuse daylight through roof openings.",
+    "hero": "/images/1-0f4d3ybiPvH8Rxyf2YFXhanrIMhTk5o.webp",
+    "images": [
+      {
+        "src": "/images/1-0f4d3ybiPvH8Rxyf2YFXhanrIMhTk5o.webp",
+        "width": 1678,
+        "height": 937,
+        "caption": "benina airport 2.png",
+        "alt": "Benina International Airport — project view"
+      },
+      {
+        "src": "/images/omar-35-0.webp",
+        "width": 2208,
+        "height": 1376,
+        "source": "omar",
+        "page": 35,
+        "alt": "Benina International Airport — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-35-1.webp",
+        "width": 2035,
+        "height": 1145,
+        "source": "omar",
+        "page": 35,
+        "alt": "Benina International Airport — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/1nUK4znMuQM1iwOmYFaj3HZVtSeJJdgh5.webp",
+        "width": 1672,
+        "height": 941,
+        "caption": "Benina Airport 1.png",
+        "alt": "Benina International Airport — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/1O01E8c-FDhDcoLaORWVbfFUFCNqLBs1R.webp",
+        "width": 1810,
+        "height": 869,
+        "caption": "benina airport 4.png",
+        "alt": "Benina International Airport — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/1vdThbfoq9w4amGDwjdzgYX1f4q3tQSMH.webp",
+        "width": 1810,
+        "height": 869,
+        "caption": "benina airport 3.png",
+        "alt": "Benina International Airport — photograph, drawing or design study 6"
+      },
+      {
+        "src": "/images/omar-34-1.webp",
+        "width": 376,
+        "height": 694,
+        "source": "omar",
+        "page": 34,
+        "alt": "Benina International Airport — photograph, drawing or design study 7"
+      },
+      {
+        "src": "/images/omar-34-0.webp",
+        "width": 376,
+        "height": 693,
+        "source": "omar",
+        "page": 34,
+        "alt": "Benina International Airport — photograph, drawing or design study 8"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          34,
+          35
+        ]
+      }
+    ],
+    "status": "Unbuilt",
+    "model": "benina",
+    "sourceLink": "https://www.byfiveten.com/work/bia",
+    "role": "Concept design, rendering, diagrams",
+    "sourceIndex": 12
+  },
+  {
+    "id": "lumident-peds",
+    "title": "Lumident Peds",
+    "category": "Interiors",
+    "year": "2021",
+    "location": "Beirut, Lebanon",
+    "program": "Dental clinic",
+    "office": "By fiveten + Amara",
+    "credits": "Omar Bacho, Dana Muhsen",
+    "summary": "A playful pediatric dental clinic uses peep windows, pastel cabinetry and movable stools to encourage curiosity and make waiting part of play.",
+    "hero": "/images/amara-17-0.webp",
+    "images": [
+      {
+        "src": "/images/amara-17-0.webp",
+        "width": 1400,
+        "height": 790,
+        "source": "amara",
+        "page": 17,
+        "alt": "Lumident Peds — project view"
+      },
+      {
+        "src": "/images/omar-07-0.webp",
+        "width": 2200,
+        "height": 1473,
+        "source": "omar",
+        "page": 7,
+        "alt": "Lumident Peds — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-06-0.webp",
+        "width": 1078,
+        "height": 1482,
+        "source": "omar",
+        "page": 6,
+        "alt": "Lumident Peds — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/omar-07-1.webp",
+        "width": 1069,
+        "height": 677,
+        "source": "omar",
+        "page": 7,
+        "alt": "Lumident Peds — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/omar-07-2.webp",
+        "width": 1068,
+        "height": 677,
+        "source": "omar",
+        "page": 7,
+        "alt": "Lumident Peds — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/amara-16-1.webp",
+        "width": 661,
+        "height": 991,
+        "source": "amara",
+        "page": 16,
+        "alt": "Lumident Peds — photograph, drawing or design study 6"
+      },
+      {
+        "src": "/images/amara-15-3.webp",
+        "width": 652,
+        "height": 957,
+        "source": "amara",
+        "page": 15,
+        "alt": "Lumident Peds — photograph, drawing or design study 7"
+      },
+      {
+        "src": "/images/amara-16-2.webp",
+        "width": 642,
+        "height": 928,
+        "source": "amara",
+        "page": 16,
+        "alt": "Lumident Peds — photograph, drawing or design study 8"
+      },
+      {
+        "src": "/images/amara-15-1.webp",
+        "width": 662,
+        "height": 488,
+        "source": "amara",
+        "page": 15,
+        "alt": "Lumident Peds — photograph, drawing or design study 9"
+      },
+      {
+        "src": "/images/amara-15-2.webp",
+        "width": 663,
+        "height": 485,
+        "source": "amara",
+        "page": 15,
+        "alt": "Lumident Peds — photograph, drawing or design study 10"
+      },
+      {
+        "src": "/images/amara-16-0.webp",
+        "width": 443,
+        "height": 587,
+        "source": "amara",
+        "page": 16,
+        "alt": "Lumident Peds — photograph, drawing or design study 11"
+      },
+      {
+        "src": "/images/amara-15-0.webp",
+        "width": 407,
+        "height": 610,
+        "source": "amara",
+        "page": 15,
+        "alt": "Lumident Peds — photograph, drawing or design study 12"
+      },
+      {
+        "src": "/images/amara-16-3.webp",
+        "width": 444,
+        "height": 386,
+        "source": "amara",
+        "page": 16,
+        "alt": "Lumident Peds — photograph, drawing or design study 13"
+      },
+      {
+        "src": "/images/omar-06-2.webp",
+        "width": 354,
+        "height": 481,
+        "source": "omar",
+        "page": 6,
+        "alt": "Lumident Peds — photograph, drawing or design study 14"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          6,
+          7
+        ]
+      },
+      {
+        "source": "amara",
+        "pages": [
+          15,
+          16,
+          17
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "Design, construction & supervision",
+    "sourceIndex": 0
+  },
+  {
+    "id": "atlas-hotel",
+    "title": "Atlas Hotel",
+    "category": "Architecture",
+    "year": "2016",
+    "location": "Beirut, Lebanon",
+    "program": "Hotel",
+    "office": "Twig Collaborative",
+    "credits": "Omar Bacho, R. Saab, S. Varma; additional collaborator credited in source",
+    "summary": "An adaptive reuse proposal embraces the vegetation that overtook an abandoned hotel, treating rooms as extended balconies protected by a green skin.",
+    "hero": "/images/1A59m2runpyy_To8HDkYwCF6KtVpfEISP.webp",
+    "images": [
+      {
+        "src": "/images/1A59m2runpyy_To8HDkYwCF6KtVpfEISP.webp",
+        "width": 1670,
+        "height": 941,
+        "caption": "Atlas Hotel 2.png",
+        "alt": "Atlas Hotel — project view"
+      },
+      {
+        "src": "/images/1FfakRp_MM0B0EkxSxog1oq2Rztn4x5u9.webp",
+        "width": 3508,
+        "height": 4961,
+        "caption": "atlas titan diagram4.jpg",
+        "alt": "Atlas Hotel — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/1oT8xvHz20ma9psjztXe8VIRY-jqTU1qF.webp",
+        "width": 3328,
+        "height": 4833,
+        "caption": "Phase 3-7 no captions.jpg",
+        "alt": "Atlas Hotel — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/1tHQ94uMfeCopWdNTsYZ7hhlXpn99y0E7.webp",
+        "width": 3328,
+        "height": 4690,
+        "caption": "Phase 3-20.jpg",
+        "alt": "Atlas Hotel — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/19Mu9BqHY5W7tTe5xUEXTUPRRMY_mAcIa.webp",
+        "width": 3179,
+        "height": 2248,
+        "caption": "Atlas Hotel X-Ray Perspective Rendering Updated 2.jpg",
+        "alt": "Atlas Hotel — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/1tRJl0pQx-b5OSHMjXQqKj7-zBvgwpiHJ.webp",
+        "width": 3505,
+        "height": 838,
+        "caption": "Plot Diagram Main.jpg",
+        "alt": "Atlas Hotel — photograph, drawing or design study 6"
+      },
+      {
+        "src": "/images/omar-19-1.webp",
+        "width": 2202,
+        "height": 1286,
+        "source": "omar",
+        "page": 19,
+        "alt": "Atlas Hotel — photograph, drawing or design study 7"
+      },
+      {
+        "src": "/images/omar-18-3.webp",
+        "width": 1643,
+        "height": 1069,
+        "source": "omar",
+        "page": 18,
+        "alt": "Atlas Hotel — photograph, drawing or design study 8"
+      },
+      {
+        "src": "/images/1P_IYpH52GyEEjbb0x4CdL0PASszwG6gx.webp",
+        "width": 1671,
+        "height": 941,
+        "caption": "Atlas Hotel 1 b.png",
+        "alt": "Atlas Hotel — photograph, drawing or design study 9"
+      },
+      {
+        "src": "/images/omar-19-0.webp",
+        "width": 886,
+        "height": 1620,
+        "source": "omar",
+        "page": 19,
+        "alt": "Atlas Hotel — photograph, drawing or design study 10"
+      },
+      {
+        "src": "/images/omar-18-0.webp",
+        "width": 542,
+        "height": 1642,
+        "source": "omar",
+        "page": 18,
+        "alt": "Atlas Hotel — photograph, drawing or design study 11"
+      },
+      {
+        "src": "/images/omar-18-2.webp",
+        "width": 318,
+        "height": 420,
+        "source": "omar",
+        "page": 18,
+        "alt": "Atlas Hotel — photograph, drawing or design study 12"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          18,
+          19
+        ]
+      }
+    ],
+    "status": "Unbuilt",
+    "model": null,
+    "sourceLink": null,
+    "role": "Design, model, 3D",
+    "sourceIndex": 6
+  },
+  {
+    "id": "doorway",
+    "title": "Doorway",
+    "category": "Architecture",
+    "year": "2018",
+    "location": "Beirut, Lebanon",
+    "program": "Social housing",
+    "office": "by fiveten",
+    "credits": "Omar Bacho, Dana Muhsen",
+    "summary": "Low-cost scalable housing reinterprets Lebanese wooden shutters as an adaptable facade, with flexible units, balconies and shared amenities.",
+    "hero": "/images/1AH6yeee3XzVmWJexP5chx8m1TWqdedY7.webp",
+    "images": [
+      {
+        "src": "/images/1AH6yeee3XzVmWJexP5chx8m1TWqdedY7.webp",
+        "width": 1672,
+        "height": 941,
+        "caption": "doorway 2.png",
+        "alt": "Doorway — project view"
+      },
+      {
+        "src": "/images/omar-32-0.webp",
+        "width": 2208,
+        "height": 1312,
+        "source": "omar",
+        "page": 32,
+        "alt": "Doorway — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-33-1.webp",
+        "width": 753,
+        "height": 3232,
+        "source": "omar",
+        "page": 33,
+        "alt": "Doorway — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/omar-33-0.webp",
+        "width": 1642,
+        "height": 1312,
+        "source": "omar",
+        "page": 33,
+        "alt": "Doorway — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/18OpYz1RLYgbaXT8F6Z8vh_rSq2VQQlGr.webp",
+        "width": 1672,
+        "height": 941,
+        "caption": "doorway 3.png",
+        "alt": "Doorway — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/1lfR19OCszhfHPoLz0f4506xJf43GTB4a.webp",
+        "width": 1672,
+        "height": 941,
+        "caption": "Doorway 1.png",
+        "alt": "Doorway — photograph, drawing or design study 6"
+      },
+      {
+        "src": "/images/1amhI6u-X2gNkcihhsUBAaP67VgwIOBTE.webp",
+        "width": 1671,
+        "height": 941,
+        "caption": "doorway4.png",
+        "alt": "Doorway — photograph, drawing or design study 7"
+      },
+      {
+        "src": "/images/omar-32-1.webp",
+        "width": 1313,
+        "height": 1000,
+        "source": "omar",
+        "page": 32,
+        "alt": "Doorway — photograph, drawing or design study 8"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          32,
+          33
+        ]
+      }
+    ],
+    "status": "Unbuilt",
+    "model": null,
+    "sourceLink": "https://www.byfiveten.com/work/doorway",
+    "role": "Concept design, diagrams, 3D modeling & rendering",
+    "sourceIndex": 11
+  },
+  {
+    "id": "thing",
+    "title": "Thing",
+    "category": "Objects",
+    "year": "2017 / 2021",
+    "location": "Beirut, Lebanon",
+    "program": "Furniture",
+    "office": "Twig Collaborative",
+    "credits": "Omar Bacho, Rami Saab, S. Varma; with Haitham Haidar",
+    "summary": "A five-sided wooden unit emerged from conversations about musical process and supports multiple uses through changing arrangements and add-ons. An open-ended furniture piece uses solid-wood offcuts and can be dismantled for flat packing, becoming a chair, stool or table through user choice.",
+    "hero": "/images/amara-28-0.webp",
+    "images": [
+      {
+        "src": "/images/amara-28-0.webp",
+        "width": 1920,
+        "height": 1083,
+        "source": "amara",
+        "page": 28,
+        "alt": "Thing — project view"
+      },
+      {
+        "src": "/images/omar-36-0.webp",
+        "width": 2368,
+        "height": 1599,
+        "source": "omar",
+        "page": 36,
+        "alt": "Thing — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-37-3.webp",
+        "width": 2635,
+        "height": 1286,
+        "source": "omar",
+        "page": 37,
+        "alt": "Thing — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/omar-38-0.webp",
+        "width": 2206,
+        "height": 1516,
+        "source": "omar",
+        "page": 38,
+        "alt": "Thing — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/omar-39-3.webp",
+        "width": 2197,
+        "height": 1017,
+        "source": "omar",
+        "page": 39,
+        "alt": "Thing — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/omar-37-2.webp",
+        "width": 1255,
+        "height": 987,
+        "source": "omar",
+        "page": 37,
+        "alt": "Thing — photograph, drawing or design study 6"
+      },
+      {
+        "src": "/images/amara-27-8.webp",
+        "width": 908,
+        "height": 994,
+        "source": "amara",
+        "page": 27,
+        "alt": "Thing — photograph, drawing or design study 7"
+      },
+      {
+        "src": "/images/omar-37-1.webp",
+        "width": 883,
+        "height": 983,
+        "source": "omar",
+        "page": 37,
+        "alt": "Thing — photograph, drawing or design study 8"
+      },
+      {
+        "src": "/images/amara-29-1.webp",
+        "width": 537,
+        "height": 991,
+        "source": "amara",
+        "page": 29,
+        "alt": "Thing — photograph, drawing or design study 9"
+      },
+      {
+        "src": "/images/omar-39-1.webp",
+        "width": 713,
+        "height": 741,
+        "source": "omar",
+        "page": 39,
+        "alt": "Thing — photograph, drawing or design study 10"
+      },
+      {
+        "src": "/images/omar-39-0.webp",
+        "width": 686,
+        "height": 741,
+        "source": "omar",
+        "page": 39,
+        "alt": "Thing — photograph, drawing or design study 11"
+      },
+      {
+        "src": "/images/omar-39-2.webp",
+        "width": 686,
+        "height": 741,
+        "source": "omar",
+        "page": 39,
+        "alt": "Thing — photograph, drawing or design study 12"
+      },
+      {
+        "src": "/images/amara-29-2.webp",
+        "width": 815,
+        "height": 498,
+        "source": "amara",
+        "page": 29,
+        "alt": "Thing — photograph, drawing or design study 13"
+      },
+      {
+        "src": "/images/amara-29-0.webp",
+        "width": 813,
+        "height": 488,
+        "source": "amara",
+        "page": 29,
+        "alt": "Thing — photograph, drawing or design study 14"
+      },
+      {
+        "src": "/images/omar-36-1.webp",
+        "width": 459,
+        "height": 538,
+        "source": "omar",
+        "page": 36,
+        "alt": "Thing — photograph, drawing or design study 15"
+      },
+      {
+        "src": "/images/omar-38-1.webp",
+        "width": 458,
+        "height": 420,
+        "source": "omar",
+        "page": 38,
+        "alt": "Thing — photograph, drawing or design study 16"
+      },
+      {
+        "src": "/images/amara-27-7.webp",
+        "width": 445,
+        "height": 306,
+        "source": "amara",
+        "page": 27,
+        "alt": "Thing — photograph, drawing or design study 17"
+      },
+      {
+        "src": "/images/amara-27-0.webp",
+        "width": 443,
+        "height": 295,
+        "source": "amara",
+        "page": 27,
+        "alt": "Thing — photograph, drawing or design study 18"
+      },
+      {
+        "src": "/images/amara-29-3.webp",
+        "width": 443,
+        "height": 294,
+        "source": "amara",
+        "page": 29,
+        "alt": "Thing — photograph, drawing or design study 19"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          36,
+          37
+        ]
+      },
+      {
+        "source": "amara",
+        "pages": [
+          27,
+          28
+        ]
+      },
+      {
+        "source": "omar",
+        "pages": [
+          38,
+          39
+        ]
+      },
+      {
+        "source": "amara",
+        "pages": [
+          29
+        ]
+      }
+    ],
+    "status": "",
+    "model": "thing",
+    "sourceLink": null,
+    "role": "Design & construction",
+    "sourceIndex": 16
+  },
+  {
+    "id": "artists-studio-balcony",
+    "title": "Artist’s Studio Balcony",
+    "category": "Interiors",
+    "year": "2019",
+    "location": "Beirut, Lebanon",
+    "program": "Artist studio",
+    "office": "Twig Collaborative",
+    "credits": "Omar Bacho, R. Saab, S. Varma; additional collaborator credited in source",
+    "summary": "A light metal grid based on a 20 × 20 module integrates canvas and easel storage, shelving, drawers, planters and drying racks.",
+    "hero": "/images/1D_YaIsgobKe5kFiAlbOdjO0h14yqqJUB.webp",
+    "images": [
+      {
+        "src": "/images/1D_YaIsgobKe5kFiAlbOdjO0h14yqqJUB.webp",
+        "width": 1086,
+        "height": 1448,
+        "caption": "Afaf Home.png",
+        "alt": "Artist’s Studio Balcony — project view"
+      },
+      {
+        "src": "/images/1MrxkiW8MJ-y2i4KGfmITWBsulCiki6zP.webp",
+        "width": 6000,
+        "height": 3379,
+        "caption": "Afaf Balcony 3d.png",
+        "alt": "Artist’s Studio Balcony — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-13-3.webp",
+        "width": 1296,
+        "height": 2640,
+        "source": "omar",
+        "page": 13,
+        "alt": "Artist’s Studio Balcony — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/1qKKeAsAs4mYxjbCGgUqB49u_wqvcB7we.webp",
+        "width": 2144,
+        "height": 1424,
+        "caption": "5 (150).jpg",
+        "alt": "Artist’s Studio Balcony — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/1ZSOSYCURbpGjcGKIK5MjfPWX90BHZHcB.webp",
+        "width": 1671,
+        "height": 941,
+        "caption": "afaf home diagram.png",
+        "alt": "Artist’s Studio Balcony — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/1PwNvwBmnnMh0btaZjiFx7HTuCcbpOZbM.webp",
+        "width": 1538,
+        "height": 1022,
+        "caption": "afaf home 2.png",
+        "alt": "Artist’s Studio Balcony — photograph, drawing or design study 6"
+      },
+      {
+        "src": "/images/omar-12-1.webp",
+        "width": 1402,
+        "height": 1066,
+        "source": "omar",
+        "page": 12,
+        "alt": "Artist’s Studio Balcony — photograph, drawing or design study 7"
+      },
+      {
+        "src": "/images/omar-13-0.webp",
+        "width": 1078,
+        "height": 1071,
+        "source": "omar",
+        "page": 13,
+        "alt": "Artist’s Studio Balcony — photograph, drawing or design study 8"
+      },
+      {
+        "src": "/images/1b7F1t-u0RXYBU18neCBnrKk-yVhTisY3.webp",
+        "width": 1645,
+        "height": 571,
+        "caption": "Diagram.jpg",
+        "alt": "Artist’s Studio Balcony — photograph, drawing or design study 9"
+      },
+      {
+        "src": "/images/omar-13-1.webp",
+        "width": 771,
+        "height": 537,
+        "source": "omar",
+        "page": 13,
+        "alt": "Artist’s Studio Balcony — photograph, drawing or design study 10"
+      },
+      {
+        "src": "/images/omar-13-2.webp",
+        "width": 740,
+        "height": 281,
+        "source": "omar",
+        "page": 13,
+        "alt": "Artist’s Studio Balcony — photograph, drawing or design study 11"
+      },
+      {
+        "src": "/images/omar-12-0.webp",
+        "width": 422,
+        "height": 422,
+        "source": "omar",
+        "page": 12,
+        "alt": "Artist’s Studio Balcony — photograph, drawing or design study 12"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          12,
+          13
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "Design & construction",
+    "sourceIndex": 3
+  },
+  {
+    "id": "residence-du-parc",
+    "title": "Résidence du Parc",
+    "category": "Interiors",
+    "year": "2019",
+    "location": "Downtown Beirut",
+    "program": "Residential",
+    "office": "Twig Collaborative",
+    "credits": "Omar Bacho, Rami Saab, S. Varma",
+    "summary": "A central cruciform consolidates apartment services, removes wasted circulation and supports flexible subdivisions using full-height screens.",
+    "hero": "/images/1UqH72f-0SKkyhjZTsMKnbcvYhxiKDP_o.webp",
+    "images": [
+      {
+        "src": "/images/1UqH72f-0SKkyhjZTsMKnbcvYhxiKDP_o.webp",
+        "width": 1672,
+        "height": 941,
+        "caption": "residence du parc 1 B.png",
+        "alt": "Résidence du Parc — project view"
+      },
+      {
+        "src": "/images/omar-22-0.webp",
+        "width": 2197,
+        "height": 1236,
+        "source": "omar",
+        "page": 22,
+        "alt": "Résidence du Parc — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-23-1.webp",
+        "width": 2195,
+        "height": 1078,
+        "source": "omar",
+        "page": 23,
+        "alt": "Résidence du Parc — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/omar-23-0.webp",
+        "width": 2190,
+        "height": 1076,
+        "source": "omar",
+        "page": 23,
+        "alt": "Résidence du Parc — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/15a-JtAOP1ilR5y3IAs9o0gtUfPq3g2mB.webp",
+        "width": 1672,
+        "height": 941,
+        "caption": "residence du parc 2.png",
+        "alt": "Résidence du Parc — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/omar-22-5.webp",
+        "width": 469,
+        "height": 419,
+        "source": "omar",
+        "page": 22,
+        "alt": "Résidence du Parc — photograph, drawing or design study 6"
+      },
+      {
+        "src": "/images/omar-22-2.webp",
+        "width": 512,
+        "height": 257,
+        "source": "omar",
+        "page": 22,
+        "alt": "Résidence du Parc — photograph, drawing or design study 7"
+      },
+      {
+        "src": "/images/omar-22-3.webp",
+        "width": 512,
+        "height": 257,
+        "source": "omar",
+        "page": 22,
+        "alt": "Résidence du Parc — photograph, drawing or design study 8"
+      },
+      {
+        "src": "/images/omar-22-1.webp",
+        "width": 512,
+        "height": 253,
+        "source": "omar",
+        "page": 22,
+        "alt": "Résidence du Parc — photograph, drawing or design study 9"
+      },
+      {
+        "src": "/images/omar-22-4.webp",
+        "width": 512,
+        "height": 241,
+        "source": "omar",
+        "page": 22,
+        "alt": "Résidence du Parc — photograph, drawing or design study 10"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          22,
+          23
+        ]
+      }
+    ],
+    "status": "Unbuilt",
+    "model": null,
+    "sourceLink": null,
+    "role": "",
+    "sourceIndex": 8
+  },
+  {
+    "id": "fahmi-residence",
+    "title": "Fahmi Residence",
+    "category": "Interiors",
+    "year": "2023",
+    "location": "Beirut, Lebanon",
+    "program": "Residential",
+    "office": "By fiveten + Amara",
+    "credits": "Omar Bacho, Dana Muhsen",
+    "summary": "A residential interior combines eclectic furnishings, repurposed materials and integrated storage, unified by a recurring wooden-rod detail.",
+    "hero": "/images/amara-22-0.webp",
+    "images": [
+      {
+        "src": "/images/amara-22-0.webp",
+        "width": 907,
+        "height": 593,
+        "source": "amara",
+        "page": 22,
+        "alt": "Fahmi Residence — project view"
+      },
+      {
+        "src": "/images/amara-22-2.webp",
+        "width": 990,
+        "height": 445,
+        "source": "amara",
+        "page": 22,
+        "alt": "Fahmi Residence — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/amara-22-4.webp",
+        "width": 568,
+        "height": 443,
+        "source": "amara",
+        "page": 22,
+        "alt": "Fahmi Residence — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/amara-22-1.webp",
+        "width": 382,
+        "height": 443,
+        "source": "amara",
+        "page": 22,
+        "alt": "Fahmi Residence — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/amara-22-3.webp",
+        "width": 445,
+        "height": 379,
+        "source": "amara",
+        "page": 22,
+        "alt": "Fahmi Residence — photograph, drawing or design study 5"
+      }
+    ],
+    "sources": [
+      {
+        "source": "amara",
+        "pages": [
+          22
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "",
+    "sourceIndex": 15
+  },
+  {
+    "id": "lebanese-municipal-agenda",
+    "title": "Lebanese Municipal Agenda",
+    "category": "Interiors",
+    "year": "2019",
+    "location": "Beirut, Lebanon",
+    "program": "Commercial office",
+    "office": "Twig Collaborative",
+    "credits": "Omar Bacho, Rami Saab, S. Varma",
+    "summary": "Four office zones remain connected through black-framed glazing, with a shared multifunctional cabinet consolidating services and storage.",
+    "hero": "/images/amara-12-0.webp",
+    "images": [
+      {
+        "src": "/images/amara-12-0.webp",
+        "width": 1921,
+        "height": 1083,
+        "source": "amara",
+        "page": 12,
+        "alt": "Lebanese Municipal Agenda — project view"
+      },
+      {
+        "src": "/images/omar-10-1.webp",
+        "width": 2363,
+        "height": 1161,
+        "source": "omar",
+        "page": 10,
+        "alt": "Lebanese Municipal Agenda — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-11-4.webp",
+        "width": 1523,
+        "height": 1069,
+        "source": "omar",
+        "page": 11,
+        "alt": "Lebanese Municipal Agenda — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/omar-11-1.webp",
+        "width": 1522,
+        "height": 1069,
+        "source": "omar",
+        "page": 11,
+        "alt": "Lebanese Municipal Agenda — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/omar-11-3.webp",
+        "width": 609,
+        "height": 1069,
+        "source": "omar",
+        "page": 11,
+        "alt": "Lebanese Municipal Agenda — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/omar-11-2.webp",
+        "width": 608,
+        "height": 1069,
+        "source": "omar",
+        "page": 11,
+        "alt": "Lebanese Municipal Agenda — photograph, drawing or design study 6"
+      },
+      {
+        "src": "/images/amara-11-4.webp",
+        "width": 906,
+        "height": 488,
+        "source": "amara",
+        "page": 11,
+        "alt": "Lebanese Municipal Agenda — photograph, drawing or design study 7"
+      },
+      {
+        "src": "/images/amara-11-3.webp",
+        "width": 905,
+        "height": 488,
+        "source": "amara",
+        "page": 11,
+        "alt": "Lebanese Municipal Agenda — photograph, drawing or design study 8"
+      },
+      {
+        "src": "/images/amara-11-1.webp",
+        "width": 443,
+        "height": 488,
+        "source": "amara",
+        "page": 11,
+        "alt": "Lebanese Municipal Agenda — photograph, drawing or design study 9"
+      },
+      {
+        "src": "/images/amara-11-2.webp",
+        "width": 443,
+        "height": 488,
+        "source": "amara",
+        "page": 11,
+        "alt": "Lebanese Municipal Agenda — photograph, drawing or design study 10"
+      },
+      {
+        "src": "/images/omar-10-0.webp",
+        "width": 439,
+        "height": 421,
+        "source": "omar",
+        "page": 10,
+        "alt": "Lebanese Municipal Agenda — photograph, drawing or design study 11"
+      },
+      {
+        "src": "/images/amara-11-0.webp",
+        "width": 359,
+        "height": 359,
+        "source": "amara",
+        "page": 11,
+        "alt": "Lebanese Municipal Agenda — photograph, drawing or design study 12"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          10,
+          11
+        ]
+      },
+      {
+        "source": "amara",
+        "pages": [
+          11,
+          12
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "Design & construction",
+    "sourceIndex": 2
+  },
+  {
+    "id": "landship",
+    "title": "Landship",
+    "category": "Architecture",
+    "year": "2016",
+    "location": "Iceland",
+    "program": "Trekking cabin",
+    "office": "Twig Collaborative",
+    "credits": "Omar Bacho, R. Saab, S. Varma; additional collaborator credited in source",
+    "summary": "A lightweight cabin inspired by Viking longships rotates a sequence of square frames to respond to weather, landscape and panoramic views.",
+    "hero": "/images/omar-28-0.webp",
+    "images": [
+      {
+        "src": "/images/omar-28-0.webp",
+        "width": 2363,
+        "height": 1721,
+        "source": "omar",
+        "page": 28,
+        "alt": "Landship — project view"
+      },
+      {
+        "src": "/images/omar-29-2.webp",
+        "width": 2197,
+        "height": 1013,
+        "source": "omar",
+        "page": 29,
+        "alt": "Landship — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-29-5.webp",
+        "width": 1069,
+        "height": 747,
+        "source": "omar",
+        "page": 29,
+        "alt": "Landship — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/omar-29-4.webp",
+        "width": 1068,
+        "height": 747,
+        "source": "omar",
+        "page": 29,
+        "alt": "Landship — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/omar-29-3.webp",
+        "width": 713,
+        "height": 893,
+        "source": "omar",
+        "page": 29,
+        "alt": "Landship — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/omar-29-1.webp",
+        "width": 642,
+        "height": 211,
+        "source": "omar",
+        "page": 29,
+        "alt": "Landship — photograph, drawing or design study 6"
+      },
+      {
+        "src": "/images/omar-29-0.webp",
+        "width": 642,
+        "height": 198,
+        "source": "omar",
+        "page": 29,
+        "alt": "Landship — photograph, drawing or design study 7"
+      },
+      {
+        "src": "/images/omar-28-1.webp",
+        "width": 348,
+        "height": 358,
+        "source": "omar",
+        "page": 28,
+        "alt": "Landship — photograph, drawing or design study 8"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          28,
+          29
+        ]
+      }
+    ],
+    "status": "Unbuilt",
+    "model": null,
+    "sourceLink": null,
+    "role": "Design, diagrams, 3D",
+    "sourceIndex": 9
+  },
+  {
+    "id": "omar-home",
+    "title": "Omar’s Home",
+    "category": "Interiors",
+    "year": "",
+    "location": "",
+    "program": "Residential renovation",
+    "office": "",
+    "credits": "",
+    "summary": "Green glazed tile, grey terrazzo and warm timber set the material palette. In the kitchen, blue cabinetry sits above a yellow-and-grey checkerboard floor. These site photographs document the interior under construction.",
+    "hero": "/images/1rg7oLP_PmPoE5-jZ0OJKYJIoa-s1SLCJ.webp",
+    "images": [
+      {
+        "src": "/images/1Bx0XbmJPaze5zh57YL03QeS1DyLUIz_l.webp",
+        "width": 720,
+        "height": 1280,
+        "alt": "Green glazed tile and terrazzo in the bathroom"
+      },
+      {
+        "src": "/images/1AIuAdsENTMKRBAJKh6DwragFimiGmQZu.webp",
+        "width": 900,
+        "height": 1600,
+        "alt": "Bathroom under construction"
+      },
+      {
+        "src": "/images/1rg7oLP_PmPoE5-jZ0OJKYJIoa-s1SLCJ.webp",
+        "width": 900,
+        "height": 1600,
+        "alt": "Timber and blue cabinetry above a checkerboard kitchen floor"
+      }
+    ],
+    "sources": [],
+    "status": "Under construction",
+    "model": null,
+    "sourceLink": null,
+    "role": "",
+    "sourceIndex": 38
+  },
+  {
+    "id": "lumident-ortho",
+    "title": "Lumident Ortho",
+    "category": "Interiors",
+    "year": "2021",
+    "location": "Beirut, Lebanon",
+    "program": "Dental clinic",
+    "office": "By fiveten + Amara",
+    "credits": "Omar Bacho, Fadi Kobrosli, Dana Muhsen",
+    "summary": "An orthodontic clinic relocation incorporates elements from the previous premises, balancing clinical functions with timber, greenery and accents of color.",
+    "hero": "/images/amara-18-3.webp",
+    "images": [
+      {
+        "src": "/images/amara-18-3.webp",
+        "width": 444,
+        "height": 382,
+        "source": "amara",
+        "page": 18,
+        "alt": "Lumident Ortho — project view"
+      },
+      {
+        "src": "/images/amara-18-0.webp",
+        "width": 906,
+        "height": 593,
+        "source": "amara",
+        "page": 18,
+        "alt": "Lumident Ortho — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/amara-18-2.webp",
+        "width": 444,
+        "height": 990,
+        "source": "amara",
+        "page": 18,
+        "alt": "Lumident Ortho — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/amara-18-4.webp",
+        "width": 443,
+        "height": 612,
+        "source": "amara",
+        "page": 18,
+        "alt": "Lumident Ortho — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/amara-18-1.webp",
+        "width": 445,
+        "height": 379,
+        "source": "amara",
+        "page": 18,
+        "alt": "Lumident Ortho — photograph, drawing or design study 5"
+      }
+    ],
+    "sources": [
+      {
+        "source": "amara",
+        "pages": [
+          18
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "",
+    "sourceIndex": 14
+  },
+  {
+    "id": "olive-grove",
+    "title": "Olive Grove",
+    "category": "Interiors",
+    "year": "2016",
+    "location": "Beirut, Lebanon",
+    "program": "Business incubator",
+    "office": "Twig Collaborative",
+    "credits": "Omar Bacho, R. Saab, S. Varma; additional collaborator credited in source",
+    "summary": "A Levantine central-hall typology organizes communal working areas and progressively private rooms within a connected, glazed interior.",
+    "hero": "/images/omar-20-0.webp",
+    "images": [
+      {
+        "src": "/images/omar-20-0.webp",
+        "width": 2000,
+        "height": 1496,
+        "source": "omar",
+        "page": 20,
+        "alt": "Olive Grove — project view"
+      },
+      {
+        "src": "/images/omar-21-0.webp",
+        "width": 1177,
+        "height": 2080,
+        "source": "omar",
+        "page": 21,
+        "alt": "Olive Grove — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-21-4.webp",
+        "width": 929,
+        "height": 608,
+        "source": "omar",
+        "page": 21,
+        "alt": "Olive Grove — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/omar-20-1.webp",
+        "width": 544,
+        "height": 535,
+        "source": "omar",
+        "page": 20,
+        "alt": "Olive Grove — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/omar-21-2.webp",
+        "width": 929,
+        "height": 282,
+        "source": "omar",
+        "page": 21,
+        "alt": "Olive Grove — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/omar-21-3.webp",
+        "width": 922,
+        "height": 277,
+        "source": "omar",
+        "page": 21,
+        "alt": "Olive Grove — photograph, drawing or design study 6"
+      },
+      {
+        "src": "/images/omar-21-1.webp",
+        "width": 924,
+        "height": 260,
+        "source": "omar",
+        "page": 21,
+        "alt": "Olive Grove — photograph, drawing or design study 7"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          20,
+          21
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "Design, diagrams, 3D",
+    "sourceIndex": 7
+  },
+  {
+    "id": "lebanese-concept-house",
+    "title": "Lebanese Concept House",
+    "category": "Interiors",
+    "year": "2019",
+    "location": "Dbayeh, Lebanon",
+    "program": "Commercial",
+    "office": "Twig Collaborative",
+    "credits": "Omar Bacho, Rami Saab, S. Varma",
+    "summary": "A modular kit of stems, nodes and connecting branches adapts display arrangements to changing merchandise and space.",
+    "hero": "/images/omar-09-1.webp",
+    "images": [
+      {
+        "src": "/images/omar-09-1.webp",
+        "width": 1415,
+        "height": 1074,
+        "source": "omar",
+        "page": 9,
+        "alt": "Lebanese Concept House — project view"
+      },
+      {
+        "src": "/images/omar-09-0.webp",
+        "width": 1415,
+        "height": 1069,
+        "source": "omar",
+        "page": 9,
+        "alt": "Lebanese Concept House — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-09-2.webp",
+        "width": 713,
+        "height": 1069,
+        "source": "omar",
+        "page": 9,
+        "alt": "Lebanese Concept House — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/amara-23-3.webp",
+        "width": 908,
+        "height": 674,
+        "source": "amara",
+        "page": 23,
+        "alt": "Lebanese Concept House — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/amara-23-0.webp",
+        "width": 566,
+        "height": 483,
+        "source": "amara",
+        "page": 23,
+        "alt": "Lebanese Concept House — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/omar-08-1.webp",
+        "width": 448,
+        "height": 440,
+        "source": "omar",
+        "page": 8,
+        "alt": "Lebanese Concept House — photograph, drawing or design study 6"
+      },
+      {
+        "src": "/images/amara-23-5.webp",
+        "width": 322,
+        "height": 483,
+        "source": "amara",
+        "page": 23,
+        "alt": "Lebanese Concept House — photograph, drawing or design study 7"
+      },
+      {
+        "src": "/images/amara-23-4.webp",
+        "width": 310,
+        "height": 303,
+        "source": "amara",
+        "page": 23,
+        "alt": "Lebanese Concept House — photograph, drawing or design study 8"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          8,
+          9
+        ]
+      },
+      {
+        "source": "amara",
+        "pages": [
+          23
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "Design & construction",
+    "sourceIndex": 1
+  },
+  {
+    "id": "uber-greenlight-hub",
+    "title": "Uber Greenlight Hub",
+    "category": "Interiors",
+    "year": "2019",
+    "location": "Beirut Digital District, Lebanon",
+    "program": "Commercial",
+    "office": "Twig Collaborative",
+    "credits": "Omar Bacho, Rami Saab, S. Varma",
+    "summary": "A pixelated topographic feature wall and local landmarks translate Uber’s identity into Beirut, supported by decals, logos and privacy screens.",
+    "hero": "/images/omar-14-1.webp",
+    "images": [
+      {
+        "src": "/images/omar-14-1.webp",
+        "width": 2143,
+        "height": 1490,
+        "source": "omar",
+        "page": 14,
+        "alt": "Uber Greenlight Hub — project view"
+      },
+      {
+        "src": "/images/omar-15-0.webp",
+        "width": 2996,
+        "height": 1478,
+        "source": "omar",
+        "page": 15,
+        "alt": "Uber Greenlight Hub — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-15-1.webp",
+        "width": 2190,
+        "height": 1078,
+        "source": "omar",
+        "page": 15,
+        "alt": "Uber Greenlight Hub — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/omar-14-0.webp",
+        "width": 449,
+        "height": 457,
+        "source": "omar",
+        "page": 14,
+        "alt": "Uber Greenlight Hub — photograph, drawing or design study 4"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          14,
+          15
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "",
+    "sourceIndex": 4
+  },
+  {
+    "id": "badalodge",
+    "title": "Badalodge",
+    "category": "Architecture",
+    "year": "2015",
+    "location": "Bamako, Mali",
+    "program": "Resort",
+    "office": "Blankpage Studio",
+    "credits": "Omar Bacho, Rudina Antoun",
+    "summary": "A riverside resort proposal lifts modular accommodation on pilotis to accommodate flooding and limit ground disturbance, using locally available wood and thatch.",
+    "hero": "/images/omar-31-0.webp",
+    "images": [
+      {
+        "src": "/images/omar-31-0.webp",
+        "width": 1072,
+        "height": 1069,
+        "source": "omar",
+        "page": 31,
+        "alt": "Badalodge — project view"
+      },
+      {
+        "src": "/images/omar-30-3.webp",
+        "width": 1644,
+        "height": 1642,
+        "source": "omar",
+        "page": 30,
+        "alt": "Badalodge — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-31-2.webp",
+        "width": 2200,
+        "height": 1072,
+        "source": "omar",
+        "page": 31,
+        "alt": "Badalodge — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/omar-31-1.webp",
+        "width": 1080,
+        "height": 1069,
+        "source": "omar",
+        "page": 31,
+        "alt": "Badalodge — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/omar-30-2.webp",
+        "width": 514,
+        "height": 515,
+        "source": "omar",
+        "page": 30,
+        "alt": "Badalodge — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/omar-30-0.webp",
+        "width": 514,
+        "height": 514,
+        "source": "omar",
+        "page": 30,
+        "alt": "Badalodge — photograph, drawing or design study 6"
+      },
+      {
+        "src": "/images/omar-30-1.webp",
+        "width": 514,
+        "height": 514,
+        "source": "omar",
+        "page": 30,
+        "alt": "Badalodge — photograph, drawing or design study 7"
+      },
+      {
+        "src": "/images/omar-30-4.webp",
+        "width": 449,
+        "height": 413,
+        "source": "omar",
+        "page": 30,
+        "alt": "Badalodge — photograph, drawing or design study 8"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          30,
+          31
+        ]
+      }
+    ],
+    "status": "Unbuilt",
+    "model": null,
+    "sourceLink": null,
+    "role": "Project manager",
+    "sourceIndex": 10
+  },
+  {
+    "id": "playnook",
+    "title": "Playnook",
+    "category": "Objects",
+    "year": "2020",
+    "location": "Beirut, Lebanon",
+    "program": "Product",
+    "office": "by fiveten",
+    "credits": "Omar Bacho, Dana Muhsen",
+    "summary": "A single cut-and-fold cardboard piece becomes a reading nook, dollhouse or network of toy-car ramps and tunnels, then folds flat for storage.",
+    "hero": "/images/omar-42-0.webp",
+    "images": [
+      {
+        "src": "/images/omar-42-0.webp",
+        "width": 2202,
+        "height": 1482,
+        "source": "omar",
+        "page": 42,
+        "alt": "Playnook — project view"
+      },
+      {
+        "src": "/images/omar-43-0.webp",
+        "width": 2204,
+        "height": 1473,
+        "source": "omar",
+        "page": 43,
+        "alt": "Playnook — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-43-2.webp",
+        "width": 1068,
+        "height": 672,
+        "source": "omar",
+        "page": 43,
+        "alt": "Playnook — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/omar-43-1.webp",
+        "width": 1069,
+        "height": 670,
+        "source": "omar",
+        "page": 43,
+        "alt": "Playnook — photograph, drawing or design study 4"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          42,
+          43
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "Concept design, illustrations",
+    "sourceIndex": 19
+  },
+  {
+    "id": "stack",
+    "title": "Stack",
+    "category": "Objects",
+    "year": "2019",
+    "location": "Beirut, Lebanon",
+    "program": "Product",
+    "office": "by fiveten",
+    "credits": "Omar Bacho, Dana Muhsen",
+    "summary": "Stackable urban jewelry forms miniature skylines; its graphic identity abstracts stacked rings into an S and extends into black packaging.",
+    "hero": "/images/omar-41-0.webp",
+    "images": [
+      {
+        "src": "/images/omar-41-0.webp",
+        "width": 1633,
+        "height": 2206,
+        "source": "omar",
+        "page": 41,
+        "alt": "Stack — project view"
+      },
+      {
+        "src": "/images/omar-40-2.webp",
+        "width": 1929,
+        "height": 1137,
+        "source": "omar",
+        "page": 40,
+        "alt": "Stack — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-40-1.webp",
+        "width": 1120,
+        "height": 1000,
+        "source": "omar",
+        "page": 40,
+        "alt": "Stack — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/omar-41-3.webp",
+        "width": 514,
+        "height": 708,
+        "source": "omar",
+        "page": 41,
+        "alt": "Stack — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/omar-41-2.webp",
+        "width": 514,
+        "height": 699,
+        "source": "omar",
+        "page": 41,
+        "alt": "Stack — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/omar-41-1.webp",
+        "width": 514,
+        "height": 697,
+        "source": "omar",
+        "page": 41,
+        "alt": "Stack — photograph, drawing or design study 6"
+      },
+      {
+        "src": "/images/omar-40-0.webp",
+        "width": 310,
+        "height": 310,
+        "source": "omar",
+        "page": 40,
+        "alt": "Stack — photograph, drawing or design study 7"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          40,
+          41
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "Branding, jewelry design, photography",
+    "sourceIndex": 18
+  },
+  {
+    "id": "shifting-lights",
+    "title": "Shifting Lights",
+    "category": "Culture",
+    "year": "2017",
+    "location": "Beit Beirut, Lebanon",
+    "program": "Exhibition & publication",
+    "office": "Twig Collaborative",
+    "credits": "Afaf Zurayk, Noel Nasr, Rami Saab; Twig Collaborative",
+    "summary": "Nine suspended translucent structures surround paintings and invite viewers into a spatial conversation about violence, displacement and collective memory. A collaborative book accompanies the exhibition through painting, photography and architecture, reflecting on turbulence, peace and introspection.",
+    "hero": "/images/omar-27-0.webp",
+    "images": [
+      {
+        "src": "/images/omar-27-0.webp",
+        "width": 2197,
+        "height": 1078,
+        "source": "omar",
+        "page": 27,
+        "alt": "Shifting Lights — project view"
+      },
+      {
+        "src": "/images/omar-55-1.webp",
+        "width": 2363,
+        "height": 1338,
+        "source": "omar",
+        "page": 55,
+        "alt": "Shifting Lights — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-27-1.webp",
+        "width": 2082,
+        "height": 1022,
+        "source": "omar",
+        "page": 27,
+        "alt": "Shifting Lights — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/omar-26-0.webp",
+        "width": 1069,
+        "height": 1463,
+        "source": "omar",
+        "page": 26,
+        "alt": "Shifting Lights — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/omar-55-0.webp",
+        "width": 782,
+        "height": 839,
+        "source": "omar",
+        "page": 55,
+        "alt": "Shifting Lights — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/omar-26-1.webp",
+        "width": 306,
+        "height": 570,
+        "source": "omar",
+        "page": 26,
+        "alt": "Shifting Lights — photograph, drawing or design study 6"
+      },
+      {
+        "src": "/images/omar-26-2.webp",
+        "width": 396,
+        "height": 418,
+        "source": "omar",
+        "page": 26,
+        "alt": "Shifting Lights — photograph, drawing or design study 7"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          26,
+          27
+        ]
+      },
+      {
+        "source": "omar",
+        "pages": [
+          55
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "",
+    "sourceIndex": 21
+  },
+  {
+    "id": "return-journeys",
+    "title": "Return Journeys",
+    "category": "Culture",
+    "year": "2019",
+    "location": "Beirut, Lebanon",
+    "program": "Exhibition & publication",
+    "office": "Twig Collaborative",
+    "credits": "Twig Collaborative; artist Afaf Zurayk",
+    "summary": "A retrospective brings together over 150 artworks, supported by coordination across the artist, curator, writers, photographers, filmmakers and production specialists. A retrospective monograph pairs four decades of artworks with short prose on translucent paper, exploring the relationship between text and image.",
+    "hero": "/images/omar-25-0.webp",
+    "images": [
+      {
+        "src": "/images/omar-25-0.webp",
+        "width": 1044,
+        "height": 1312,
+        "source": "omar",
+        "page": 25,
+        "alt": "Return Journeys — project view"
+      },
+      {
+        "src": "/images/omar-25-1.webp",
+        "width": 2197,
+        "height": 1078,
+        "source": "omar",
+        "page": 25,
+        "alt": "Return Journeys — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-24-0.webp",
+        "width": 1037,
+        "height": 765,
+        "source": "omar",
+        "page": 24,
+        "alt": "Return Journeys — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/omar-25-4.webp",
+        "width": 1309,
+        "height": 490,
+        "source": "omar",
+        "page": 25,
+        "alt": "Return Journeys — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/omar-25-2.webp",
+        "width": 1309,
+        "height": 295,
+        "source": "omar",
+        "page": 25,
+        "alt": "Return Journeys — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/omar-53-1.webp",
+        "width": 800,
+        "height": 475,
+        "source": "omar",
+        "page": 53,
+        "alt": "Return Journeys — photograph, drawing or design study 6"
+      },
+      {
+        "src": "/images/omar-25-3.webp",
+        "width": 1309,
+        "height": 282,
+        "source": "omar",
+        "page": 25,
+        "alt": "Return Journeys — photograph, drawing or design study 7"
+      },
+      {
+        "src": "/images/omar-53-0.webp",
+        "width": 504,
+        "height": 533,
+        "source": "omar",
+        "page": 53,
+        "alt": "Return Journeys — photograph, drawing or design study 8"
+      },
+      {
+        "src": "/images/omar-24-1.webp",
+        "width": 535,
+        "height": 420,
+        "source": "omar",
+        "page": 24,
+        "alt": "Return Journeys — photograph, drawing or design study 9"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          24,
+          25
+        ]
+      },
+      {
+        "source": "omar",
+        "pages": [
+          53
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "",
+    "sourceIndex": 20
+  },
+  {
+    "id": "atlas-of-the-prophet",
+    "title": "Atlas of the Prophet",
+    "category": "Culture",
+    "year": "2020",
+    "location": "Saudi Arabia",
+    "program": "Graphics",
+    "office": "Twig Collaborative",
+    "credits": "Omar Bacho, S. Varma, Rami Saab",
+    "summary": "A visual and cartographic language for a 700-page atlas uses geometric forms and diagrams to present the Prophet’s journeys and early Islamic history.",
+    "hero": "/images/omar-44-0.webp",
+    "images": [
+      {
+        "src": "/images/omar-44-0.webp",
+        "width": 2210,
+        "height": 1350,
+        "source": "omar",
+        "page": 44,
+        "alt": "Atlas of the Prophet — project view"
+      },
+      {
+        "src": "/images/omar-45-0.webp",
+        "width": 2197,
+        "height": 2197,
+        "source": "omar",
+        "page": 45,
+        "alt": "Atlas of the Prophet — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-44-1.webp",
+        "width": 405,
+        "height": 415,
+        "source": "omar",
+        "page": 44,
+        "alt": "Atlas of the Prophet — photograph, drawing or design study 3"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          44,
+          45
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "",
+    "sourceIndex": 22
+  },
+  {
+    "id": "stanford-mena-forum",
+    "title": "Stanford MENA Forum",
+    "category": "Culture",
+    "year": "2019",
+    "location": "MENA Region",
+    "program": "Graphics",
+    "office": "Twig Collaborative",
+    "credits": "Omar Bacho, S. Varma, Rami Saab",
+    "summary": "An emblem built from the Arabic letters S, M and F uses vertical rhythm and graded color to express growth and change across forum applications.",
+    "hero": "/images/omar-47-0.webp",
+    "images": [
+      {
+        "src": "/images/omar-47-0.webp",
+        "width": 1667,
+        "height": 903,
+        "source": "omar",
+        "page": 47,
+        "alt": "Stanford MENA Forum — project view"
+      },
+      {
+        "src": "/images/omar-47-1.webp",
+        "width": 1500,
+        "height": 991,
+        "source": "omar",
+        "page": 47,
+        "alt": "Stanford MENA Forum — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-46-0.webp",
+        "width": 800,
+        "height": 492,
+        "source": "omar",
+        "page": 46,
+        "alt": "Stanford MENA Forum — photograph, drawing or design study 3"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          46,
+          47
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "Concept development, branding and logo design",
+    "sourceIndex": 23
+  },
+  {
+    "id": "beirut-beiti",
+    "title": "Beirut Beiti",
+    "category": "Culture",
+    "year": "2018",
+    "location": "Beirut, Lebanon",
+    "program": "Graphics",
+    "office": "Twig Collaborative",
+    "credits": "Omar Bacho, S. Varma, Rami Saab",
+    "summary": "A user-generated advocacy platform helps residents document, activate and create public spaces, developed through research at Parsons.",
+    "hero": "/images/omar-49-0.webp",
+    "images": [
+      {
+        "src": "/images/omar-49-0.webp",
+        "width": 1103,
+        "height": 2700,
+        "source": "omar",
+        "page": 49,
+        "alt": "Beirut Beiti — project view"
+      },
+      {
+        "src": "/images/omar-49-1.webp",
+        "width": 1071,
+        "height": 1809,
+        "source": "omar",
+        "page": 49,
+        "alt": "Beirut Beiti — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-48-0.webp",
+        "width": 800,
+        "height": 541,
+        "source": "omar",
+        "page": 48,
+        "alt": "Beirut Beiti — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/omar-48-1.webp",
+        "width": 405,
+        "height": 424,
+        "source": "omar",
+        "page": 48,
+        "alt": "Beirut Beiti — photograph, drawing or design study 4"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          48,
+          49
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "",
+    "sourceIndex": 24
+  },
+  {
+    "id": "beirut-blast-data-visualization",
+    "title": "Beirut Blast — Data Visualization",
+    "category": "Culture",
+    "year": "",
+    "location": "Beirut, Lebanon",
+    "program": "Data visualization",
+    "office": "Twig Collaborative",
+    "credits": "Twig Collaborative",
+    "summary": "Visualizations and short animations communicate UNDP findings on blast debris, socioeconomic impacts and productive sectors.",
+    "hero": "/images/omar-50-0.webp",
+    "images": [
+      {
+        "src": "/images/omar-50-0.webp",
+        "width": 2205,
+        "height": 1539,
+        "source": "omar",
+        "page": 50,
+        "alt": "Beirut Blast — Data Visualization — project view"
+      },
+      {
+        "src": "/images/omar-51-0.webp",
+        "width": 3012,
+        "height": 3000,
+        "source": "omar",
+        "page": 51,
+        "alt": "Beirut Blast — Data Visualization — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-50-1.webp",
+        "width": 408,
+        "height": 411,
+        "source": "omar",
+        "page": 50,
+        "alt": "Beirut Blast — Data Visualization — photograph, drawing or design study 3"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          50,
+          51
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "",
+    "sourceIndex": 25
+  },
+  {
+    "id": "beyond-art",
+    "title": "Beyond Art",
+    "category": "Culture",
+    "year": "2020",
+    "location": "Beirut, Lebanon",
+    "program": "Book",
+    "office": "Twig Collaborative",
+    "credits": "Twig Collaborative",
+    "summary": "An intimate poetry-and-painting book made during lockdown uses proportion and rotated text to encourage tactile, nonlinear reading.",
+    "hero": "/images/omar-52-1.webp",
+    "images": [
+      {
+        "src": "/images/omar-52-1.webp",
+        "width": 2048,
+        "height": 1252,
+        "source": "omar",
+        "page": 52,
+        "alt": "Beyond Art — project view"
+      },
+      {
+        "src": "/images/omar-52-0.webp",
+        "width": 738,
+        "height": 847,
+        "source": "omar",
+        "page": 52,
+        "alt": "Beyond Art — photograph, drawing or design study 2"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          52
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "",
+    "sourceIndex": 26
+  },
+  {
+    "id": "drawn-by-light",
+    "title": "Drawn by Light",
+    "category": "Culture",
+    "year": "2019",
+    "location": "Beirut, Lebanon",
+    "program": "Book",
+    "office": "Twig Collaborative",
+    "credits": "Twig Collaborative",
+    "summary": "Twenty paired sequences of image and text trace artistic experience and reflection across forty years of creative development.",
+    "hero": "/images/omar-54-1.webp",
+    "images": [
+      {
+        "src": "/images/omar-54-1.webp",
+        "width": 2372,
+        "height": 1329,
+        "source": "omar",
+        "page": 54,
+        "alt": "Drawn by Light — project view"
+      },
+      {
+        "src": "/images/omar-54-0.webp",
+        "width": 738,
+        "height": 847,
+        "source": "omar",
+        "page": 54,
+        "alt": "Drawn by Light — photograph, drawing or design study 2"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          54
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "",
+    "sourceIndex": 28
+  },
+  {
+    "id": "open-work",
+    "title": "Open Work",
+    "category": "Research",
+    "year": "2018",
+    "location": "Chiba, Japan",
+    "program": "Public library",
+    "office": "Open Work studio",
+    "credits": "Omar Bacho, A. Azzi, N. Kacholia; additional collaborator credited in source",
+    "summary": "A proposal dismantles and recombines Masato Otaka’s prefabricated library modules to double usable area while retaining the original structural system.",
+    "hero": "/images/omar-60-0.webp",
+    "images": [
+      {
+        "src": "/images/omar-60-0.webp",
+        "width": 2197,
+        "height": 1236,
+        "source": "omar",
+        "page": 60,
+        "alt": "Open Work — project view"
+      },
+      {
+        "src": "/images/omar-61-2.webp",
+        "width": 2197,
+        "height": 836,
+        "source": "omar",
+        "page": 61,
+        "alt": "Open Work — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-61-1.webp",
+        "width": 2197,
+        "height": 696,
+        "source": "omar",
+        "page": 61,
+        "alt": "Open Work — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/omar-61-0.webp",
+        "width": 2197,
+        "height": 610,
+        "source": "omar",
+        "page": 61,
+        "alt": "Open Work — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/omar-60-1.webp",
+        "width": 1107,
+        "height": 873,
+        "source": "omar",
+        "page": 60,
+        "alt": "Open Work — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/omar-60-2.webp",
+        "width": 405,
+        "height": 413,
+        "source": "omar",
+        "page": 60,
+        "alt": "Open Work — photograph, drawing or design study 6"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          60,
+          61
+        ]
+      }
+    ],
+    "status": "Study",
+    "model": null,
+    "sourceLink": null,
+    "role": "Concept design, research",
+    "sourceIndex": 32
+  },
+  {
+    "id": "weaving-schools",
+    "title": "Weaving Schools",
+    "category": "Research",
+    "year": "2017",
+    "location": "",
+    "program": "Architecture school",
+    "office": "Academic studio",
+    "credits": "Omar Bacho, Andres Infante",
+    "summary": "A speculative school combines individual study, collective studio work and civic gathering, drawing on the AA, Harvard GSD and São Paulo FAU.",
+    "hero": "/images/omar-56-1.webp",
+    "images": [
+      {
+        "src": "/images/omar-56-1.webp",
+        "width": 2121,
+        "height": 1687,
+        "source": "omar",
+        "page": 56,
+        "alt": "Weaving Schools — project view"
+      },
+      {
+        "src": "/images/omar-57-0.webp",
+        "width": 2197,
+        "height": 1639,
+        "source": "omar",
+        "page": 57,
+        "alt": "Weaving Schools — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-57-1.webp",
+        "width": 1128,
+        "height": 514,
+        "source": "omar",
+        "page": 57,
+        "alt": "Weaving Schools — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/omar-56-0.webp",
+        "width": 405,
+        "height": 417,
+        "source": "omar",
+        "page": 56,
+        "alt": "Weaving Schools — photograph, drawing or design study 4"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          56,
+          57
+        ]
+      }
+    ],
+    "status": "Study",
+    "model": null,
+    "sourceLink": null,
+    "role": "Concept design",
+    "sourceIndex": 30
+  },
+  {
+    "id": "grown-barrier-reef",
+    "title": "Grown Barrier Reef",
+    "category": "Research",
+    "year": "2018",
+    "location": "",
+    "program": "Infrastructure",
+    "office": "Grown studio",
+    "credits": "Omar Bacho",
+    "summary": "A speculative waterfront uses cathode accretion and calcium carbonate growth to support coral, flood protection, marine ecology and fishing practices.",
+    "hero": "/images/omar-59-0.webp",
+    "images": [
+      {
+        "src": "/images/omar-59-0.webp",
+        "width": 3300,
+        "height": 1823,
+        "source": "omar",
+        "page": 59,
+        "alt": "Grown Barrier Reef — project view"
+      },
+      {
+        "src": "/images/omar-59-1.webp",
+        "width": 3300,
+        "height": 1442,
+        "source": "omar",
+        "page": 59,
+        "alt": "Grown Barrier Reef — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/omar-58-4.webp",
+        "width": 1641,
+        "height": 1633,
+        "source": "omar",
+        "page": 58,
+        "alt": "Grown Barrier Reef — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/omar-58-3.webp",
+        "width": 508,
+        "height": 385,
+        "source": "omar",
+        "page": 58,
+        "alt": "Grown Barrier Reef — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/omar-58-0.webp",
+        "width": 505,
+        "height": 385,
+        "source": "omar",
+        "page": 58,
+        "alt": "Grown Barrier Reef — photograph, drawing or design study 5"
+      },
+      {
+        "src": "/images/omar-58-1.webp",
+        "width": 505,
+        "height": 385,
+        "source": "omar",
+        "page": 58,
+        "alt": "Grown Barrier Reef — photograph, drawing or design study 6"
+      },
+      {
+        "src": "/images/omar-58-2.webp",
+        "width": 502,
+        "height": 385,
+        "source": "omar",
+        "page": 58,
+        "alt": "Grown Barrier Reef — photograph, drawing or design study 7"
+      },
+      {
+        "src": "/images/omar-58-5.webp",
+        "width": 396,
+        "height": 396,
+        "source": "omar",
+        "page": 58,
+        "alt": "Grown Barrier Reef — photograph, drawing or design study 8"
+      }
+    ],
+    "sources": [
+      {
+        "source": "omar",
+        "pages": [
+          58,
+          59
+        ]
+      }
+    ],
+    "status": "Study",
+    "model": null,
+    "sourceLink": null,
+    "role": "Concept design",
+    "sourceIndex": 31
+  },
+  {
+    "id": "mawad",
+    "title": "Mawad",
+    "category": "Studio archive",
+    "year": "2022",
+    "location": "Beirut",
+    "program": "Commercial",
+    "office": "Karim Nader Studio",
+    "credits": "K. Nader, L. Rafeh",
+    "summary": "A wood showroom rebuilt after the port explosion uses an olive tree, white metal mesh and a central stair to express material renewal.",
+    "hero": "/images/amara-14-0.webp",
+    "images": [
+      {
+        "src": "/images/amara-14-0.webp",
+        "width": 1422,
+        "height": 798,
+        "source": "amara",
+        "page": 14,
+        "alt": "Mawad — project view"
+      },
+      {
+        "src": "/images/amara-13-0.webp",
+        "width": 1283,
+        "height": 490,
+        "source": "amara",
+        "page": 13,
+        "alt": "Mawad — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/amara-13-1.webp",
+        "width": 1283,
+        "height": 488,
+        "source": "amara",
+        "page": 13,
+        "alt": "Mawad — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/amara-13-2.webp",
+        "width": 510,
+        "height": 416,
+        "source": "amara",
+        "page": 13,
+        "alt": "Mawad — photograph, drawing or design study 4"
+      }
+    ],
+    "sources": [
+      {
+        "source": "amara",
+        "pages": [
+          13,
+          14
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "",
+    "sourceIndex": 33
+  },
+  {
+    "id": "sursock-14-eme",
+    "title": "Sursock 14-ème",
+    "category": "Studio archive",
+    "year": "2022",
+    "location": "Beirut",
+    "program": "Residential",
+    "office": "Karim Nader Studio",
+    "credits": "K. Nader, L. Rafeh",
+    "summary": "A renovated apartment balances a family’s art and antiques with contemporary minimalism and open views over Beirut.",
+    "hero": "/images/amara-20-0.webp",
+    "images": [
+      {
+        "src": "/images/amara-20-0.webp",
+        "width": 1921,
+        "height": 1083,
+        "source": "amara",
+        "page": 20,
+        "alt": "Sursock 14-ème — project view"
+      },
+      {
+        "src": "/images/amara-21-0.webp",
+        "width": 1921,
+        "height": 1083,
+        "source": "amara",
+        "page": 21,
+        "alt": "Sursock 14-ème — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/amara-19-2.webp",
+        "width": 907,
+        "height": 952,
+        "source": "amara",
+        "page": 19,
+        "alt": "Sursock 14-ème — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/amara-19-1.webp",
+        "width": 445,
+        "height": 952,
+        "source": "amara",
+        "page": 19,
+        "alt": "Sursock 14-ème — photograph, drawing or design study 4"
+      },
+      {
+        "src": "/images/amara-19-0.webp",
+        "width": 443,
+        "height": 488,
+        "source": "amara",
+        "page": 19,
+        "alt": "Sursock 14-ème — photograph, drawing or design study 5"
+      }
+    ],
+    "sources": [
+      {
+        "source": "amara",
+        "pages": [
+          19,
+          20,
+          21
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "",
+    "sourceIndex": 34
+  },
+  {
+    "id": "arz-general-trading",
+    "title": "Arz General Trading",
+    "category": "Studio archive",
+    "year": "2021",
+    "location": "Beirut",
+    "program": "Commercial",
+    "office": "Amara",
+    "credits": "F. Kobrosli, W. Alamedine",
+    "summary": "Timber-lined walls and a sculptural reception desk organize a compact commercial interior.",
+    "hero": "/images/amara-24-0.webp",
+    "images": [
+      {
+        "src": "/images/amara-24-0.webp",
+        "width": 906,
+        "height": 645,
+        "source": "amara",
+        "page": 24,
+        "alt": "Arz General Trading — project view"
+      },
+      {
+        "src": "/images/amara-24-1.webp",
+        "width": 908,
+        "height": 642,
+        "source": "amara",
+        "page": 24,
+        "alt": "Arz General Trading — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/amara-24-2.webp",
+        "width": 908,
+        "height": 330,
+        "source": "amara",
+        "page": 24,
+        "alt": "Arz General Trading — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/amara-24-3.webp",
+        "width": 443,
+        "height": 331,
+        "source": "amara",
+        "page": 24,
+        "alt": "Arz General Trading — photograph, drawing or design study 4"
+      }
+    ],
+    "sources": [
+      {
+        "source": "amara",
+        "pages": [
+          24
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "",
+    "sourceIndex": 35
+  },
+  {
+    "id": "chbeir-residence",
+    "title": "Chbeir Residence",
+    "category": "Studio archive",
+    "year": "2022",
+    "location": "Kaslik, Lebanon",
+    "program": "Villa renovation",
+    "office": "Amara",
+    "credits": "F. Kobrosli",
+    "summary": "A villa renovation in Kaslik, with ornamental ceilings, curved openings and detailed interior finishes.",
+    "hero": "/images/amara-25-0.webp",
+    "images": [
+      {
+        "src": "/images/amara-25-0.webp",
+        "width": 908,
+        "height": 992,
+        "source": "amara",
+        "page": 25,
+        "alt": "Chbeir Residence — project view"
+      },
+      {
+        "src": "/images/amara-25-3.webp",
+        "width": 443,
+        "height": 671,
+        "source": "amara",
+        "page": 25,
+        "alt": "Chbeir Residence — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/amara-25-2.webp",
+        "width": 443,
+        "height": 669,
+        "source": "amara",
+        "page": 25,
+        "alt": "Chbeir Residence — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/amara-25-1.webp",
+        "width": 443,
+        "height": 303,
+        "source": "amara",
+        "page": 25,
+        "alt": "Chbeir Residence — photograph, drawing or design study 4"
+      }
+    ],
+    "sources": [
+      {
+        "source": "amara",
+        "pages": [
+          25
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "",
+    "sourceIndex": 36
+  },
+  {
+    "id": "inglot-lab-abc",
+    "title": "Inglot Lab, ABC",
+    "category": "Studio archive",
+    "year": "2020",
+    "location": "Beirut",
+    "program": "Retail store",
+    "office": "Amara",
+    "credits": "F. Kobrosli",
+    "summary": "A cosmetics retail fit-out organized around illuminated product displays, counters and precise black framing.",
+    "hero": "/images/amara-26-2.webp",
+    "images": [
+      {
+        "src": "/images/amara-26-2.webp",
+        "width": 905,
+        "height": 590,
+        "source": "amara",
+        "page": 26,
+        "alt": "Inglot Lab, ABC — project view"
+      },
+      {
+        "src": "/images/amara-26-3.webp",
+        "width": 1368,
+        "height": 384,
+        "source": "amara",
+        "page": 26,
+        "alt": "Inglot Lab, ABC — photograph, drawing or design study 2"
+      },
+      {
+        "src": "/images/amara-26-0.webp",
+        "width": 445,
+        "height": 590,
+        "source": "amara",
+        "page": 26,
+        "alt": "Inglot Lab, ABC — photograph, drawing or design study 3"
+      },
+      {
+        "src": "/images/amara-26-1.webp",
+        "width": 445,
+        "height": 590,
+        "source": "amara",
+        "page": 26,
+        "alt": "Inglot Lab, ABC — photograph, drawing or design study 4"
+      }
+    ],
+    "sources": [
+      {
+        "source": "amara",
+        "pages": [
+          26
+        ]
+      }
+    ],
+    "status": "",
+    "model": null,
+    "sourceLink": null,
+    "role": "",
+    "sourceIndex": 37
+  }
+]

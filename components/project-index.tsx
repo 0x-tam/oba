@@ -1,0 +1,11 @@
+'use client';
+import { useState } from 'react';
+import Link from 'next/link';
+import { projects, personalProjects } from '@/lib/projects';
+const categories=['All work','Architecture','Interiors','Objects','Culture','Research','Unbuilt','Studio archive'];
+export default function ProjectIndex(){
+ const [category,setCategory]=useState('All work');const [expanded,setExpanded]=useState(false);
+ const filtered=category==='All work'?personalProjects:projects.filter(p=>category==='Unbuilt'?p.status==='Unbuilt':p.category===category);
+ const visible=expanded||category!=='All work'?filtered:filtered.slice(0,10);
+ return <section className="work-section" id="work"><div className="section-heading"><p className="eyebrow">01 / Work</p><h2>Selected projects<span className="index-count">{String(personalProjects.length).padStart(2,'0')}</span></h2></div><div className="category-nav" role="group" aria-label="Filter projects">{categories.map(c=><button key={c} aria-pressed={c===category} onClick={()=>{setCategory(c);setExpanded(false)}}>{c}{c===category&&<span>{filtered.length.toString().padStart(2,'0')}</span>}</button>)}</div>{category==='Studio archive'&&<p className="archive-note">From Amara’s 2024 studio portfolio. These projects are credited to the designers listed on each project page.</p>}<div className="project-grid">{visible.map((p,i)=><Link href={'/work/'+p.id} className={'project-card '+(i%5===2?'landscape-card':'')} key={p.id}><div className="project-image"><img src={p.hero} alt={p.images[0]?.alt||p.title} loading="lazy" decoding="async"/><span className="project-open" aria-hidden="true">↗</span>{p.model&&<span className="model-tag">3D study</span>}</div><div className="project-caption"><h3>{p.title}</h3><span>{p.year||p.status}</span></div><p className="project-category">{p.category==='Studio archive'?p.office:p.program}{p.status&&p.year?' · '+p.status:''}</p></Link>)}</div>{category==='All work'&&!expanded&&<button className="all-work-button" onClick={()=>setExpanded(true)}>Explore the complete index <span>{personalProjects.length} projects <b>↓</b></span></button>}{category==='All work'&&expanded&&<p className="index-end">The complete index · {personalProjects.length} projects</p>}</section>
+}
