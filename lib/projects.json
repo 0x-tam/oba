@@ -1360,25 +1360,25 @@
     "program": "Residential renovation",
     "office": "",
     "credits": "",
-    "summary": "Green glazed tile, grey terrazzo and warm timber set the material palette. In the kitchen, blue cabinetry sits above a yellow-and-grey checkerboard floor. These site photographs document the interior under construction.",
-    "hero": "/images/1rg7oLP_PmPoE5-jZ0OJKYJIoa-s1SLCJ.webp",
+    "summary": "Green glazed tile, grey terrazzo and warm timber set the material palette. In the kitchen, blue cabinetry and red handles sit above a yellow-and-grey checkerboard floor. Recessed bathroom shelves keep the wall surfaces clear.",
+    "hero": "/images/omar-home-kitchen.webp",
     "images": [
       {
-        "src": "/images/1Bx0XbmJPaze5zh57YL03QeS1DyLUIz_l.webp",
-        "width": 720,
-        "height": 1280,
+        "src": "/images/omar-home-bathroom.webp",
+        "width": 941,
+        "height": 1672,
         "alt": "Green glazed tile and terrazzo in the bathroom"
       },
       {
-        "src": "/images/1AIuAdsENTMKRBAJKh6DwragFimiGmQZu.webp",
-        "width": 900,
-        "height": 1600,
-        "alt": "Bathroom under construction"
+        "src": "/images/omar-home-shower.webp",
+        "width": 941,
+        "height": 1672,
+        "alt": "Green glazed tile and recessed terrazzo shelving in the shower room"
       },
       {
-        "src": "/images/1rg7oLP_PmPoE5-jZ0OJKYJIoa-s1SLCJ.webp",
-        "width": 900,
-        "height": 1600,
+        "src": "/images/omar-home-kitchen.webp",
+        "width": 941,
+        "height": 1672,
         "alt": "Timber and blue cabinetry above a checkerboard kitchen floor"
       }
     ],

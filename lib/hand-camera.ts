@@ -1,6 +1,6 @@
 import TrackingWorker from '../workers/hand-tracking.worker?worker';
-import { HandGestures, type GestureMode } from './hand-gestures';
-export type GestureFrame=ReturnType<HandGestures['update']>;
+import { HandGestures, type Hand, type GestureMode } from './hand-gestures';
+export type GestureFrame=ReturnType<HandGestures['update']> & {hands:Hand[]};
 export const gestureHints:Record<GestureMode,string>={
  paused:'Use one hand at a time · Open the other hand',
  searching:'Show your hands · Keep fingertips in view',ready:'Ready · Pinch to rotate, make a fist to zoom',
@@ -22,8 +22,8 @@ export function trackCamera(video:HTMLVideoElement, callbacks:{ready:()=>void;fr
   if(event.data.type==='ready'){ready=true;clearTimeout(timer);callbacks.ready();}
   if(event.data.type==='result'){
    busy=false;clearTimeout(timer);
-   if(performance.now()-event.data.time>180){gestures.reset();callbacks.frame(gestures.update([],performance.now()));}
-   else callbacks.frame(gestures.update(event.data.hands,event.data.time));
+   if(performance.now()-event.data.time>180){gestures.reset();callbacks.frame({...gestures.update([],performance.now()),hands:[]});}
+   else callbacks.frame({...gestures.update(event.data.hands,event.data.time),hands:event.data.hands});
   }
  };
  async function loop(now:number){

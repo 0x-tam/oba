@@ -34,3 +34,11 @@ test('only reviewed reconstructions are advertised as interactive models',async(
   assert.ok(page.includes('Original portfolio sheets'));
  }
 });
+test('interior pages offer three distinct related portraits with working destinations',async()=>{
+ const html=await(await get('/work/omar-home')).text();
+ const cards=[...html.matchAll(/class="related-card" href="([^"]+)"/g)].map(m=>m[1]);
+ assert.equal(cards.length,3);assert.equal(new Set(cards).size,3);
+ for(const path of cards){assert.notEqual(path,'/work/omar-home');assert.equal((await get(path)).status,200);}
+ const profile=await(await get('/profile')).text();
+ for(const m of profile.matchAll(/href="(\/work[^"#]*)"/g))assert.equal((await get(m[1])).status,200,m[1]);
+});

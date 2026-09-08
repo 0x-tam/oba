@@ -13,7 +13,7 @@
     "format": "oxfmt",
     "build:vercel": "NITRO_PRESET=vercel vite build",
     "build:node": "NITRO_PRESET=node vite build",
-    "test": "node --experimental-strip-types --test tests/hand-gestures.test.mjs",
+    "test": "node --experimental-strip-types --test tests/hand-gestures.test.mjs tests/model-rotation.test.mjs",
     "test:deployment": "node --test tests/deployment.test.mjs"
   },
   "dependencies": {
