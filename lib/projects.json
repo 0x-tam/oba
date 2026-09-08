@@ -950,7 +950,7 @@
       }
     ],
     "status": "",
-    "model": null,
+    "model": "studio",
     "sourceLink": null,
     "role": "Design & construction",
     "sourceIndex": 3
@@ -1056,7 +1056,7 @@
       }
     ],
     "status": "Unbuilt",
-    "model": null,
+    "model": "parc",
     "sourceLink": null,
     "role": "",
     "sourceIndex": 8
@@ -1346,7 +1346,7 @@
       }
     ],
     "status": "Unbuilt",
-    "model": null,
+    "model": "landship",
     "sourceLink": null,
     "role": "Design, diagrams, 3D",
     "sourceIndex": 9
@@ -1633,7 +1633,7 @@
       }
     ],
     "status": "",
-    "model": null,
+    "model": "twig",
     "sourceLink": null,
     "role": "Design & construction",
     "sourceIndex": 1

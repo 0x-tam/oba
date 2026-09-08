@@ -18,3 +18,13 @@ Final coverage: 31 personal project entries and 5 separate Amara studio archive 
 3D: No native model files were supplied. Benina and Thing Flatpack are approximate, simplified interactive reconstructions grounded in the source drawings. They are not scans or fabrication models. Camera gesture controls are optional, processed locally with MediaPipe; video is not uploaded or recorded. Camera hardware/gesture performance requires a user trial on their device.
 
 Validation: TypeScript check; production build; finite geometry/bounds checks for single-bay, roof-field and furniture models; unique-route and local asset/source-sheet coverage checks; HTTP checks of every project route. No browser interaction or camera hardware testing performed.
+
+## Navigation and 3D revision
+
+The homepage now presents four direct project collections. Dedicated Projects, 3D Collection and Profile routes replace the long mixed homepage. The project index provides search, stage filtering, a 3D-only filter, sorting and nine-item pages. Detail pages link back to their discipline and offer section navigation; initial galleries show six images, with all remaining images and archival sheets retained on request.
+
+Six interactive reconstructions: Benina, Thing Flatpack, Landship, Artist’s Studio Balcony, Twig kit/Lebanese Concept House, and Résidence du Parc. RDP is explicitly a portal/sliding-screen detail study, not a complete apartment reconstruction. New models are grounded in the original portfolio drawings and source research; proportions and unrecoverable construction details remain interpretive.
+
+Each model offers selectable components, an explanatory part list, focus controls, perspective/top/front views, layer visibility, separated assembly and local optional hand gestures. Landship provides the source-supported 0–15 degree glazing adjustment. Twig includes paired bolted rails, concrete ballast and platform locating blocks. Studio uses a carved lattice and curved canopy ribs. RDP includes real arch openings and a sliding timber screen.
+
+Validation: TypeScript compilation, production build, finite geometry/bounds checks for all six studies, selectable-part integrity, all image references, preserved project count, and HTTP/title/navigation checks for the homepage, all collection pages, 3D, profile and four new 3D-linked detail routes. No camera hardware testing or browser interaction testing performed.
