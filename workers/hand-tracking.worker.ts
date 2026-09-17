@@ -14,6 +14,13 @@ async function loadAsset(url:string,label:string){
   const bytes=new Uint8Array(received);let offset=0;for(const chunk of chunks){bytes.set(chunk,offset);offset+=chunk.length;}return bytes;
  }finally{clearTimeout(timer!)}
 }
+async function unpack(bytes:Uint8Array){
+ if(typeof DecompressionStream!=='undefined'&&bytes[0]===31&&bytes[1]===139){
+  const blob=new Blob([bytes.buffer as ArrayBuffer]);
+  return new Uint8Array(await new Response(blob.stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer());
+ }
+ return bytes;
+}
 self.onmessage=async(event:MessageEvent)=>{
  const message=event.data;
  try{
@@ -23,11 +30,10 @@ self.onmessage=async(event:MessageEvent)=>{
    const runtime=async()=>{
     const compressed=typeof DecompressionStream!=='undefined';
     const bytes=await loadAsset(files.wasmBinaryPath+(compressed?'.gz':''),'tracking engine');
-    const blob=new Blob([bytes.buffer as ArrayBuffer]);
-    const decoded=compressed&&bytes[0]===31&&bytes[1]===139?await new Response(blob.stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer():bytes.buffer;
-    return URL.createObjectURL(new Blob([decoded as ArrayBuffer],{type:'application/wasm'}));
+    const decoded=await unpack(bytes);
+    return URL.createObjectURL(new Blob([decoded.buffer as ArrayBuffer],{type:'application/wasm'}));
    };
-   const [runtimeUrl,modelAssetBuffer]=await Promise.all([runtime(),loadAsset(`${message.origin}/hand-tracking/hand_landmarker.task`,'hand model')]);
+   const [runtimeUrl,modelAssetBuffer]=await Promise.all([runtime(),loadAsset(`${message.origin}/hand-tracking/hand_landmarker.task${typeof DecompressionStream!=='undefined'?'.gz':''}`,'hand model').then(unpack)]);
    progress('Starting hand detector…');
    try{
     tracker=await HandLandmarker.createFromOptions({...files,wasmBinaryPath:runtimeUrl},{
