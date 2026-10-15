@@ -52,7 +52,8 @@ scene.add(new THREE.HemisphereLight('#ffffff','#d2cbc0',2.5));const sun=new THRE
    let releaseAfterMouse=false;
    tracking.current=trackCamera(v,{
     ready(){if(id!==requestId.current)return;setCamera('on');setStatus(gestureHints.searching);mount.current?.scrollIntoView({block:'start',behavior:'smooth'})},
-    error(){if(id!==requestId.current)return;stopCamera();setStatus('Tracking could not keep up or is unavailable. Try again, or use drag and zoom.')},
+    progress(message){if(id===requestId.current)setStatus(message)},
+    error(message){if(id!==requestId.current)return;stopCamera();setStatus(message)},
     frame(result){
      if(id!==requestId.current)return;
      const now=performance.now(),manual=now<manualUntil.current;setDetected(manual?'Mouse control':result.mode==='zoom'?'Fist · Zoom':result.mode==='rotate'?'Pinch · Rotate':result.mode==='searching'?'Finding hand':result.mode==='arming'?'Hold gesture':'Paused');
